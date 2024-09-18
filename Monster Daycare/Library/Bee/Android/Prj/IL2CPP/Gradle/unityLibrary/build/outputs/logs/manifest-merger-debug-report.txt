@@ -86,17 +86,17 @@ ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\B
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-23:16
 	android:screenOrientation
-		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-155
+		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-148
 	android:launchMode
-		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:156-187
+		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:149-180
 	android:hardwareAccelerated
-		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:405-440
+		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:398-433
 	android:exported
-		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:441-464
+		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:434-457
 	android:resizeableActivity
-		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:370-404
+		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:363-397
 	android:configChanges
-		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:188-369
+		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:181-362
 	android:theme
 		ADDED from C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:69-110
 	android:name

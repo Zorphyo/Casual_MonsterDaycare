@@ -116,8 +116,8 @@
 64-->[:unityLibrary] C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-44
 65            android:resizeableActivity="false"
 65-->[:unityLibrary] C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-47
-66            android:screenOrientation="reverseLandscape"
-66-->[:unityLibrary] C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-57
+66            android:screenOrientation="landscape"
+66-->[:unityLibrary] C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-50
 67            android:theme="@style/UnityThemeSelector" >
 67-->[:unityLibrary] C:\Users\Ryan\Desktop\Casual_MonsterDaycare\Monster Daycare\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-54
 68            <intent-filter>

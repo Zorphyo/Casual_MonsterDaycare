@@ -870,6 +870,14 @@
         "dependencies": [
           {
             "name": "Font",
+            "scenes": [
+              "Assets/Scenes/BaseDaycare.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "TextMesh",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
