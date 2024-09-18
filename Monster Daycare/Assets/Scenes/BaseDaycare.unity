@@ -2953,7 +2953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 600611256}
-  speed: 0.15
+  speed: 0.175
 --- !u!1001 &1880450260
 PrefabInstance:
   m_ObjectHideFlags: 0
