@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneManager : MonoBehaviour
 {
@@ -16,24 +17,29 @@ public class SceneManager : MonoBehaviour
     {
         Title,
         Game,
+        Game2,
         HowToPlay
     }
 
     public void LoadScene(Scene scene)
     {
-        SceneManager.LoadScene(scene.ToString());
+        UnityEngine.SceneManagement.SceneManager.LoadScene(scene.ToString());
     }
     public void LoadTitle()
     {
-        SceneManager.LoadScene(Scene.Title.ToString());
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.Title.ToString());
     }
     public void LoadGame()
     {
-        SceneManager.LoadScene(Scene.Game.ToString());
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.Game.ToString());
+    }
+    public void LoadGame2()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.Game2.ToString());
     }
     public void LoadHowToPlay()
     {
-        SceneManager.LoadScene(Scene.HowToPlay.ToString());
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.HowToPlay.ToString());
     }
     public void QuitGame()
     {
