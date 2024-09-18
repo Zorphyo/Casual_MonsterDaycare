@@ -1,4 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*libil2cpp.so filter=lfs diff=lfs merge=lfs -text
+*libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
 *.unity filter=lfs diff=lfs merge=lfs -text
 *.tar.7z filter=lfs diff=lfs merge=lfs -text

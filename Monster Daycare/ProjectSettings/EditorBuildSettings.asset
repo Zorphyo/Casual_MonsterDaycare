@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BaseDaycare.unity
+    guid: bb0d3721f704a0d42a4135160b2e9d94
   m_configObjects: {}
