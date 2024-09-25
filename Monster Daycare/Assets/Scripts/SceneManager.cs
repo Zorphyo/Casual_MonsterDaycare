@@ -18,7 +18,9 @@ public class SceneManager : MonoBehaviour
         Title,
         Game,
         Game2,
-        HowToPlay
+        HowToPlay,
+        MainMenu,
+        LevelSelect
     }
 
     public void LoadScene(Scene scene)
@@ -40,6 +42,14 @@ public class SceneManager : MonoBehaviour
     public void LoadHowToPlay()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.HowToPlay.ToString());
+    }
+    public void LoadMainMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.MainMenu.ToString());
+    }
+    public void LoadLevelSelect()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.LevelSelect.ToString());
     }
     public void QuitGame()
     {
