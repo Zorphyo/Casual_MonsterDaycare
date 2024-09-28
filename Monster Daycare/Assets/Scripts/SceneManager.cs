@@ -20,7 +20,9 @@ public class SceneManager : MonoBehaviour
         Game2,
         HowToPlay,
         MainMenu,
-        LevelSelect
+        LevelSelect,
+        Extras,
+        Shop
     }
 
     public void LoadScene(Scene scene)
@@ -50,6 +52,14 @@ public class SceneManager : MonoBehaviour
     public void LoadLevelSelect()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.LevelSelect.ToString());
+    }
+    public void LoadExtras()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.Extras.ToString());
+    }
+    public void LoadShop()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.Shop.ToString());
     }
     public void QuitGame()
     {
