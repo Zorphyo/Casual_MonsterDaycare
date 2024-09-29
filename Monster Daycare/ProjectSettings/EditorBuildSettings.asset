@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 83d55b25092d547d2ac932c1663edad3
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 80b9321aafbb9467a86b24c210931ae6
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a7ea3aceeb79d42ec8a1c718249908da
+  - enabled: 1
     path: Assets/Scenes/BaseDaycare.unity
     guid: bb0d3721f704a0d42a4135160b2e9d94
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: 2f12146bfb7bc4ca790012c4683ea020
+  - enabled: 1
+    path: Assets/Scenes/Extras.unity
+    guid: b2ae59eb07d1f4408bb8a2b6ea958da9
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: ff2fb4500b85a4ad389a63a663232c71
   m_configObjects: {}
