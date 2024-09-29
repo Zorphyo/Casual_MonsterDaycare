@@ -25,4 +25,8 @@ public class PauseManager : MonoBehaviour
     {
         pauseMenu.SetActive(false);
     }
+    public void Pause()
+    {
+        pauseMenu.SetActive(true);
+    }
 }
