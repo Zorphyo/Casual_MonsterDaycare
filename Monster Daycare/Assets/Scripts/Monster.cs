@@ -69,7 +69,7 @@ public class Monster : MonoBehaviour
                 {
                     heart1.enabled = false;
                     heart1.gameObject.SetActive(false);
-                    CancelInvoke();
+                    timer.gameOver = true;
                 }
 
                 hearts--;
@@ -81,15 +81,25 @@ public class Monster : MonoBehaviour
             taskTimerText.text = string.Format("{0:0}", seconds); 
         }
 
+        else 
+        {
+            taskTimerText.enabled = false;
+            taskTimerText.gameObject.SetActive(false);
+
+            taskText.enabled = true;
+            taskText.gameObject.SetActive(false);
+        }
+
         if (timer.gameOver)
         {
+            isTaskActive = false;
             CancelInvoke();
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if(isTaskActive)
+        if(isTaskActive && player.hasItem == true)
         {
             player.GiveItem();
             isTaskActive = false;

@@ -1,10 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Item : MonoBehaviour
 {
+    public string itemName;
+    [SerializeField] Button itemButton;
+    [SerializeField] TextMeshProUGUI inventoryText;
+
     private PlayerMovement player;
+
+    void Awake()
+    {
+        itemButton.onClick.AddListener(() => PickUpItem(itemName));
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -22,13 +33,33 @@ public class Item : MonoBehaviour
     {
         player = other.GetComponent<PlayerMovement>();
 
-        player.ShowButton();
+        ShowButton();
     }
 
     void OnTriggerExit(Collider other)
     {
         player = other.GetComponent<PlayerMovement>();
 
-        player.HideButton();
+        HideButton();
+    }
+
+    public void ShowButton()
+    {
+        itemButton.enabled = true;
+        itemButton.gameObject.SetActive(true);
+    }
+
+    public void HideButton()
+    {
+        itemButton.enabled = false;
+        itemButton.gameObject.SetActive(false);
+    }
+
+    public void PickUpItem(string itemName)
+    {
+        player.hasItem = true;
+        itemButton.interactable = false;
+
+        inventoryText.text = inventoryText.text + itemName;
     }
 }

@@ -35,33 +35,12 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(horizontal, 0, vertical);
     }
 
-    public void ShowButton()
-    {
-        itemButton.enabled = true;
-        itemButton.gameObject.SetActive(true);
-    }
-
-    public void HideButton()
-    {
-        itemButton.enabled = false;
-        itemButton.gameObject.SetActive(false);
-    }
-
-    public void PickUpItem()
-    {
-        hasItem = true;
-        itemButton.interactable = false;
-
-        inventoryText.enabled = true;
-        inventoryText.gameObject.SetActive(true);
-    }
-
     public void GiveItem()
     {
         hasItem = false;
         itemButton.interactable = true;
 
-        inventoryText.enabled = false;
-        inventoryText.gameObject.SetActive(false);
+        inventoryText.text = "Inventory: ";
+
     }
 }
