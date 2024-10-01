@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelect.unity
     guid: ff2fb4500b85a4ad389a63a663232c71
+  - enabled: 1
+    path: Assets/Scenes/BaseDaycare1.unity
+    guid: 368492026b5cfc84a8c1f5d990934334
   m_configObjects: {}

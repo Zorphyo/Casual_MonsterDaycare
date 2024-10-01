@@ -17,7 +17,7 @@ public class SceneManager : MonoBehaviour
     {
         Title,
         Game,
-        BaseDaycare,
+        BaseDaycare1,
         HowToPlay,
         MainMenu,
         LevelSelect,
@@ -37,9 +37,9 @@ public class SceneManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.Game.ToString());
     }
-    public void LoadBaseDaycare()
+    public void LoadBaseDaycare1()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare.ToString());
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare1.ToString());
     }
     public void LoadHowToPlay()
     {
