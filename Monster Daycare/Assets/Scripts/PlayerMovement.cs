@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public FixedJoystick joystick;
     public float speed;
+    public string heldItem;
     [SerializeField] Button itemButton;
     [SerializeField] TextMeshProUGUI inventoryText;
     [HideInInspector] public bool hasItem = false;

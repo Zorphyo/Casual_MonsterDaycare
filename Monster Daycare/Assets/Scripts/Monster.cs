@@ -1,16 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Monster : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI taskTimerText;
-    [SerializeField] TextMeshProUGUI taskText;
+    [SerializeField] TextMeshProUGUI taskTimer1Text;
+    [SerializeField] TextMeshProUGUI taskTimer2Text;
+    [SerializeField] TextMeshProUGUI taskTimer3Text;
+    [SerializeField] TextMeshProUGUI task1Text;
+    [SerializeField] TextMeshProUGUI task2Text;
+    [SerializeField] TextMeshProUGUI task3Text;
     //private float taskTimer;
     public float timeForTask;
     [HideInInspector] public bool isTaskActive = false;
+    public List<string> itemNames;
+    int random;
 
     public Image heart1;
     public Image heart2;
@@ -19,6 +26,7 @@ public class Monster : MonoBehaviour
 
     PlayerMovement player;
     Timer timer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,13 +41,12 @@ public class Monster : MonoBehaviour
     {
         if (isTaskActive)
         {
-            taskTimerText.enabled = true;
-            taskTimerText.gameObject.SetActive(true);
+            taskTimer1Text.enabled = true;
+            taskTimer1Text.gameObject.SetActive(true);
 
-            taskText.enabled = true;
-            taskText.gameObject.SetActive(true);
+            task1Text.text = "1. Get " + itemNames[random - 1];
 
-            if (timeForTask > 0)
+            if (timeForTask > 1)
             {
                 timeForTask -= Time.deltaTime;
             }
@@ -47,11 +54,10 @@ public class Monster : MonoBehaviour
             else
             {
                 timeForTask = 0;
-                taskTimerText.enabled = false;
-                taskTimerText.gameObject.SetActive(false);
+                taskTimer1Text.enabled = false;
+                taskTimer1Text.gameObject.SetActive(false);
 
-                taskText.enabled = false;
-                taskText.gameObject.SetActive(false);
+                task1Text.text = "1. ";
 
                 if (hearts == 3)
                 {
@@ -74,20 +80,19 @@ public class Monster : MonoBehaviour
 
                 hearts--;
                 isTaskActive = false;
-                timeForTask = 10.0f;
+                timeForTask = 16.0f;
             }
 
             int seconds = Mathf.FloorToInt(timeForTask % 60);
-            taskTimerText.text = string.Format("{0:0}", seconds); 
+            taskTimer1Text.text = string.Format("{0:0}", seconds); 
         }
 
         else 
         {
-            taskTimerText.enabled = false;
-            taskTimerText.gameObject.SetActive(false);
+            taskTimer1Text.enabled = false;
+            taskTimer1Text.gameObject.SetActive(false);
 
-            taskText.enabled = true;
-            taskText.gameObject.SetActive(false);
+            task1Text.text = "1. ";
         }
 
         if (timer.gameOver)
@@ -99,22 +104,23 @@ public class Monster : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(isTaskActive && player.hasItem == true)
+        if(isTaskActive && player.hasItem == true && player.heldItem == itemNames[random - 1])
         {
             player.GiveItem();
             isTaskActive = false;
 
-            timeForTask = 10.0f;
-            taskTimerText.enabled = false;
-            taskTimerText.gameObject.SetActive(false);
+            timeForTask = 16.0f;
+            taskTimer1Text.enabled = false;
+            taskTimer1Text.gameObject.SetActive(false);
 
-            taskText.enabled = false;
-            taskText.gameObject.SetActive(false);
+            task1Text.text = "1. ";
         }
     }
 
     void CreateTask()
     {
         isTaskActive = true;
+
+        random = Random.Range(1, itemNames.Count);
     }
 }

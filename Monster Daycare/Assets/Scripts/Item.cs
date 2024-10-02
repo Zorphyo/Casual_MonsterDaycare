@@ -20,7 +20,7 @@ public class Item : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = FindObjectOfType<PlayerMovement>();
     }
 
     // Update is called once per frame
@@ -31,15 +31,11 @@ public class Item : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        player = other.GetComponent<PlayerMovement>();
-
         ShowButton();
     }
 
     void OnTriggerExit(Collider other)
     {
-        player = other.GetComponent<PlayerMovement>();
-
         HideButton();
     }
 
@@ -58,8 +54,9 @@ public class Item : MonoBehaviour
     public void PickUpItem(string itemName)
     {
         player.hasItem = true;
-        itemButton.interactable = false;
+        player.heldItem = itemName;
+        //itemButton.interactable = false;
 
-        inventoryText.text = inventoryText.text + itemName;
+        inventoryText.text = "Inventory: " + itemName;
     }
 }
