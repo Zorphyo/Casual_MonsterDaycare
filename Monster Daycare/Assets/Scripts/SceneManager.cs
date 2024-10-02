@@ -8,6 +8,8 @@ public class SceneManager : MonoBehaviour
 {
     public static SceneManager Instance;
 
+    public static string difficulty;
+
     private void Awake()
     {
         Instance = this;
@@ -37,8 +39,15 @@ public class SceneManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.Game.ToString());
     }
-    public void LoadBaseDaycare1()
+    public void LoadBaseDaycare1Easy()
     {
+        difficulty = "Easy";
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare1.ToString());
+    }
+
+    public void LoadBaseDaycare1Hard()
+    {
+        difficulty = "Hard";
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare1.ToString());
     }
     public void LoadHowToPlay()

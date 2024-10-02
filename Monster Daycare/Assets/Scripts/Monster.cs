@@ -13,11 +13,13 @@ public class Monster : MonoBehaviour
     [SerializeField] TextMeshProUGUI task1Text;
     [SerializeField] TextMeshProUGUI task2Text;
     [SerializeField] TextMeshProUGUI task3Text;
-    //private float taskTimer;
-    public float timeForTask;
+    float timeForTask;
+    float holdingTimeForTask;
     [HideInInspector] public bool isTaskActive = false;
     public List<string> itemNames;
+
     int random;
+    int minTime, maxTime;
 
     public Image heart1;
     public Image heart2;
@@ -33,7 +35,25 @@ public class Monster : MonoBehaviour
         player = FindObjectOfType<PlayerMovement>();
         timer = FindObjectOfType<Timer>();
 
-        InvokeRepeating("CreateTask", 5.0f, 15.0f);
+        if (SceneManager.difficulty == "Easy")
+        {
+            minTime = 12;
+            maxTime = 15;
+            timeForTask = 15.0f;
+        }
+
+        else 
+        {
+            minTime = 7;
+            maxTime = 10;
+            timeForTask = 10.0f;
+        }
+
+        holdingTimeForTask = timeForTask;
+
+        random = Random.Range(minTime, maxTime);
+
+        InvokeRepeating("CreateTask", 5.0f, random);
     }
 
     // Update is called once per frame
@@ -80,7 +100,7 @@ public class Monster : MonoBehaviour
 
                 hearts--;
                 isTaskActive = false;
-                timeForTask = 16.0f;
+                timeForTask = holdingTimeForTask;
             }
 
             int seconds = Mathf.FloorToInt(timeForTask % 60);
@@ -109,7 +129,7 @@ public class Monster : MonoBehaviour
             player.GiveItem();
             isTaskActive = false;
 
-            timeForTask = 16.0f;
+            timeForTask = holdingTimeForTask;
             taskTimer1Text.enabled = false;
             taskTimer1Text.gameObject.SetActive(false);
 
@@ -119,8 +139,11 @@ public class Monster : MonoBehaviour
 
     void CreateTask()
     {
-        isTaskActive = true;
+        if (!isTaskActive)
+        {
+            isTaskActive = true;
 
-        random = Random.Range(1, itemNames.Count);
+            random = Random.Range(1, itemNames.Count);
+        }
     }
 }
