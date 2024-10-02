@@ -13,6 +13,11 @@ public class Monster : MonoBehaviour
     [SerializeField] TextMeshProUGUI task1Text;
     [SerializeField] TextMeshProUGUI task2Text;
     [SerializeField] TextMeshProUGUI task3Text;
+
+    SkinnedMeshRenderer mesh;
+    [SerializeField] SkinnedMeshRenderer middleBaby;
+    [SerializeField] SkinnedMeshRenderer finalBaby;
+
     float timeForTask;
     float holdingTimeForTask;
     [HideInInspector] public bool isTaskActive = false;
@@ -34,6 +39,7 @@ public class Monster : MonoBehaviour
     {
         player = FindObjectOfType<PlayerMovement>();
         timer = FindObjectOfType<Timer>();
+        mesh = GetComponent<SkinnedMeshRenderer>();
 
         if (SceneManager.difficulty == "Easy")
         {
@@ -83,12 +89,36 @@ public class Monster : MonoBehaviour
                 {
                     heart3.enabled = false;
                     heart3.gameObject.SetActive(false);
+
+                    mesh.sharedMesh = middleBaby.sharedMesh;
+                    //int counter = 0;
+
+                    Material[] newMaterials = new Material[4];
+                    newMaterials[0] = middleBaby.sharedMaterials[0];
+                    newMaterials[1] = middleBaby.sharedMaterials[1];
+                    newMaterials[2] = middleBaby.sharedMaterials[2];
+                    newMaterials[3] = middleBaby.sharedMaterials[3];
+
+                    mesh.sharedMaterials = newMaterials;
+                    
                 }
 
                 else if (hearts == 2)
                 {
                     heart2.enabled = false;
                     heart2.gameObject.SetActive(false);
+
+                    mesh.sharedMesh = finalBaby.sharedMesh;
+                    //int counter2 = 0;
+                    
+                    Material[] newMaterials = new Material[4];
+                    newMaterials[0] = finalBaby.sharedMaterials[0];
+                    newMaterials[1] = finalBaby.sharedMaterials[1];
+                    newMaterials[2] = finalBaby.sharedMaterials[2];
+                    newMaterials[3] = finalBaby.sharedMaterials[3];
+
+                    mesh.sharedMaterials = newMaterials;
+                    
                 }
 
                 else 
