@@ -97,12 +97,12 @@ public class Monster : MonoBehaviour
                     heart3.gameObject.SetActive(false);
 
                     mesh.sharedMesh = middleBaby.sharedMesh;
-
-                    Material[] newMaterials = new Material[4];
-                    newMaterials[0] = middleBaby.sharedMaterials[0];
-                    newMaterials[1] = middleBaby.sharedMaterials[1];
-                    newMaterials[2] = middleBaby.sharedMaterials[2];
-                    newMaterials[3] = middleBaby.sharedMaterials[3];
+                    Material[] newMaterials = new Material[middleBaby.sharedMaterials.Length];
+                    
+                    for (int i = 0; i < middleBaby.sharedMaterials.Length; i++)
+                    {
+                        newMaterials[i] = middleBaby.sharedMaterials[i];
+                    }
 
                     mesh.sharedMaterials = newMaterials;
                     
@@ -114,12 +114,12 @@ public class Monster : MonoBehaviour
                     heart2.gameObject.SetActive(false);
 
                     mesh.sharedMesh = finalBaby.sharedMesh;
-                    
-                    Material[] newMaterials = new Material[4];
-                    newMaterials[0] = finalBaby.sharedMaterials[0];
-                    newMaterials[1] = finalBaby.sharedMaterials[1];
-                    newMaterials[2] = finalBaby.sharedMaterials[2];
-                    newMaterials[3] = finalBaby.sharedMaterials[3];
+                    Material[] newMaterials = new Material[finalBaby.sharedMaterials.Length];
+
+                    for (int i = 0; i < finalBaby.sharedMaterials.Length; i++)
+                    {
+                        newMaterials[i] = finalBaby.sharedMaterials[i];
+                    }
 
                     mesh.sharedMaterials = newMaterials;
                     
@@ -175,12 +175,12 @@ public class Monster : MonoBehaviour
                     heart3.gameObject.SetActive(false);
 
                     mesh.sharedMesh = middleBaby.sharedMesh;
-
-                    Material[] newMaterials = new Material[4];
-                    newMaterials[0] = middleBaby.sharedMaterials[0];
-                    newMaterials[1] = middleBaby.sharedMaterials[1];
-                    newMaterials[2] = middleBaby.sharedMaterials[2];
-                    newMaterials[3] = middleBaby.sharedMaterials[3];
+                    Material[] newMaterials = new Material[middleBaby.sharedMaterials.Length];
+                    
+                    for (int i = 0; i < middleBaby.sharedMaterials.Length; i++)
+                    {
+                        newMaterials[i] = middleBaby.sharedMaterials[i];
+                    }
 
                     mesh.sharedMaterials = newMaterials;
                     
@@ -192,12 +192,12 @@ public class Monster : MonoBehaviour
                     heart2.gameObject.SetActive(false);
 
                     mesh.sharedMesh = finalBaby.sharedMesh;
-                    
-                    Material[] newMaterials = new Material[4];
-                    newMaterials[0] = finalBaby.sharedMaterials[0];
-                    newMaterials[1] = finalBaby.sharedMaterials[1];
-                    newMaterials[2] = finalBaby.sharedMaterials[2];
-                    newMaterials[3] = finalBaby.sharedMaterials[3];
+                    Material[] newMaterials = new Material[finalBaby.sharedMaterials.Length];
+
+                    for (int i = 0; i < finalBaby.sharedMaterials.Length; i++)
+                    {
+                        newMaterials[i] = finalBaby.sharedMaterials[i];
+                    }
 
                     mesh.sharedMaterials = newMaterials;
                     
@@ -253,15 +253,15 @@ public class Monster : MonoBehaviour
                     heart3.gameObject.SetActive(false);
 
                     mesh.sharedMesh = middleBaby.sharedMesh;
-
-                    Material[] newMaterials = new Material[4];
-                    newMaterials[0] = middleBaby.sharedMaterials[0];
-                    newMaterials[1] = middleBaby.sharedMaterials[1];
-                    newMaterials[2] = middleBaby.sharedMaterials[2];
-                    newMaterials[3] = middleBaby.sharedMaterials[3];
+                    Material[] newMaterials = new Material[middleBaby.sharedMaterials.Length];
+                    
+                    for (int i = 0; i < middleBaby.sharedMaterials.Length; i++)
+                    {
+                        newMaterials[i] = middleBaby.sharedMaterials[i];
+                    }
 
                     mesh.sharedMaterials = newMaterials;
-                    
+
                 }
 
                 else if (hearts == 2)
@@ -270,12 +270,12 @@ public class Monster : MonoBehaviour
                     heart2.gameObject.SetActive(false);
 
                     mesh.sharedMesh = finalBaby.sharedMesh;
-                    
-                    Material[] newMaterials = new Material[4];
-                    newMaterials[0] = finalBaby.sharedMaterials[0];
-                    newMaterials[1] = finalBaby.sharedMaterials[1];
-                    newMaterials[2] = finalBaby.sharedMaterials[2];
-                    newMaterials[3] = finalBaby.sharedMaterials[3];
+                    Material[] newMaterials = new Material[finalBaby.sharedMaterials.Length];
+
+                    for (int i = 0; i < finalBaby.sharedMaterials.Length; i++)
+                    {
+                        newMaterials[i] = finalBaby.sharedMaterials[i];
+                    }
 
                     mesh.sharedMaterials = newMaterials;
                     

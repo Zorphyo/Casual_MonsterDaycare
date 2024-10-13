@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public FixedJoystick joystick;
     public float speed;
     public string heldItem;
-    [SerializeField] Button itemButton;
+    //[SerializeField] Button itemButton;
     [SerializeField] TextMeshProUGUI inventoryText;
     [HideInInspector] public bool hasItem = false;
 
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
     public void GiveItem()
     {
         hasItem = false;
-        itemButton.interactable = true;
+        //itemButton.interactable = true;
 
         inventoryText.text = "Inventory: ";
 
