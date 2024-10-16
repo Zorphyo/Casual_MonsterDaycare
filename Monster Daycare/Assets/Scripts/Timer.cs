@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI timerText;
-    [SerializeField] TextMeshProUGUI winText;
-    [SerializeField] TextMeshProUGUI loseText;
+    [SerializeField] GameObject winText;
+    [SerializeField] GameObject loseText;
     [SerializeField] float remainingTime;
     [HideInInspector] public bool gameOver = false;
     Monster monster;
@@ -18,6 +18,8 @@ public class Timer : MonoBehaviour
     void Start()
     {
         monster = FindObjectOfType<Monster>();
+        winText.SetActive(false);
+        loseText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -46,15 +48,15 @@ public class Timer : MonoBehaviour
         if (remainingTime < 1)
         {
             gameOver = true;
-            winText.enabled = true;
-            winText.gameObject.SetActive(true);
+            //winText.enabled = true;
+            winText.SetActive(true);
         }
 
         if (monster.hearts == 0)
         {
             gameOver = true;
-            loseText.enabled = true;
-            loseText.gameObject.SetActive(true);
+            //loseText.enabled = true;
+            loseText.SetActive(true);
         }
     }
 }
