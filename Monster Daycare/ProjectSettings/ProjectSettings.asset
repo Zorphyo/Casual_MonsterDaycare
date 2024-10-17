@@ -913,8 +913,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Monster Daycare
-  metroPackageVersion: 
+  metroPackageName: MonsterDaycare
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -922,7 +922,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Monster Daycare
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Monster Daycare
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

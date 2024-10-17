@@ -511,7 +511,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -537,7 +537,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 44267,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.rsp2"
@@ -2880,7 +2880,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 53110,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -2906,7 +2906,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 91810,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.rsp2"
@@ -3602,7 +3602,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 101191,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -3628,7 +3628,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 151695,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.rsp2"
@@ -4389,7 +4389,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 160975,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -4415,7 +4415,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 197073,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.rsp2"
@@ -5037,7 +5037,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 207058,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
@@ -5063,7 +5063,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 240640,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.rsp2"
@@ -5638,7 +5638,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 250704,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.UnityAdditionalFile.txt"
@@ -5664,7 +5664,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 319544,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.rsp2"
@@ -6564,7 +6564,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 329099,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
@@ -6590,7 +6590,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 365449,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2"
@@ -7176,7 +7176,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 375531,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -7202,7 +7202,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 440250,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.rsp2"
@@ -8044,7 +8044,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 449876,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.AssetIdRemapUtility.UnityAdditionalFile.txt"
@@ -8070,7 +8070,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 483822,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.AssetIdRemapUtility.rsp2"
@@ -8630,7 +8630,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 493896,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.Csg.UnityAdditionalFile.txt"
@@ -8656,7 +8656,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 526259,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.Csg.rsp2"
@@ -9194,7 +9194,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 535799,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.KdTree.UnityAdditionalFile.txt"
@@ -9220,7 +9220,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 568554,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.KdTree.rsp2"
@@ -9761,7 +9761,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 578099,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.Poly2Tri.UnityAdditionalFile.txt"
@@ -9787,7 +9787,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 613013,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.Poly2Tri.rsp2"
@@ -10347,7 +10347,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 622555,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.Stl.UnityAdditionalFile.txt"
@@ -10373,7 +10373,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 654551,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.Stl.rsp2"
@@ -10906,7 +10906,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 664086,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -10932,7 +10932,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 700008,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.rsp2"
@@ -11505,7 +11505,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 709527,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt"
@@ -11531,7 +11531,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 743800,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.rsp2"
@@ -12097,7 +12097,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 753866,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.SysrootPackage.Editor.UnityAdditionalFile.txt"
@@ -12123,7 +12123,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 787298,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.SysrootPackage.Editor.rsp2"
@@ -12679,7 +12679,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 797394,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
@@ -12705,7 +12705,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 832486,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2"
@@ -13273,7 +13273,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 842616,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
@@ -13299,7 +13299,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 876512,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2"
@@ -13856,7 +13856,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 886608,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -13882,7 +13882,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 923403,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.rsp2"
@@ -14470,7 +14470,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 932931,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -14496,7 +14496,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 970789,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.rsp2"
@@ -15098,7 +15098,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 980319,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -15124,7 +15124,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1014241,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.rsp2"
@@ -15685,7 +15685,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1024303,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -15711,7 +15711,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1060522,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.rsp2"
@@ -16289,7 +16289,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1070051,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -16315,7 +16315,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1103420,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.rsp2"
@@ -16891,7 +16891,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1113570,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.UnityAdditionalFile.txt"
@@ -16917,7 +16917,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1145487,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.rsp2"
@@ -17470,7 +17470,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1155117,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.TestFramework.UnityAdditionalFile.txt"
@@ -17496,7 +17496,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1185209,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.TestFramework.rsp2"
@@ -17991,7 +17991,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1193579,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.UnityAdditionalFile.txt"
@@ -18017,7 +18017,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1234458,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.rsp2"
@@ -18702,7 +18702,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1244169,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Sysroot.Linux_x86_64.UnityAdditionalFile.txt"
@@ -18728,7 +18728,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1277541,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Sysroot.Linux_x86_64.rsp2"
@@ -19304,7 +19304,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1287709,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
@@ -19330,7 +19330,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1325303,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2"
@@ -19978,7 +19978,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1335161,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -20004,7 +20004,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1372847,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
@@ -20627,7 +20627,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1382989,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -20653,7 +20653,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1440284,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.rsp2"
@@ -21500,7 +21500,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1450425,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -21526,7 +21526,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1535955,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.rsp2"
@@ -22488,7 +22488,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1545580,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.Editor.UnityAdditionalFile.txt"
@@ -22514,7 +22514,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1595496,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.Editor.rsp2"
@@ -23338,7 +23338,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1605999,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.UnityAdditionalFile.txt"
@@ -23364,7 +23364,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1639526,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.rsp2"
@@ -23944,7 +23944,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1649793,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
@@ -23970,7 +23970,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1739580,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2"
@@ -25015,7 +25015,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1749745,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -25041,7 +25041,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1830629,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.rsp2"
@@ -25980,7 +25980,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1840349,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.AddOns.Editor.UnityAdditionalFile.txt"
@@ -26006,7 +26006,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1873782,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.AddOns.Editor.rsp2"
@@ -26586,7 +26586,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1884026,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
@@ -26612,7 +26612,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1937824,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2"
@@ -27386,7 +27386,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1948252,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -27412,7 +27412,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1983313,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.rsp2"
@@ -27980,7 +27980,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1993058,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
@@ -28006,7 +28006,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 2027932,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2"
@@ -28625,7 +28625,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 2038484,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
@@ -28651,7 +28651,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 2080105,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.rsp2"
@@ -29292,7 +29292,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 2090647,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
@@ -29318,7 +29318,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 2124482,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\Casual_Mon",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Casual_Mon",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2"
@@ -29914,7 +29914,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 2135101,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -30825,7 +30825,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 2180901,
       "PayloadLength": 47,
-      "PayloadDebugContentSnippet": "C:\\GitHub\\Casual_MonsterDaycar",
+      "PayloadDebugContentSnippet": "C:\\Github\\Casual_MonsterDaycar",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
@@ -32816,7 +32816,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"C:/Program Files/Unity 2022.3.37f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity 2022.3.37f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.Csg.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.KdTree.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.Poly2Tri.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.Stl.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\" -s=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\" -s=\"C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity 2022.3.37f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity 2022.3.37f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.Csg.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.KdTree.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.Poly2Tri.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.ProBuilder.Stl.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity 2022.3.37f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\ScriptAssemblies\" -s=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\" -s=\"C:\\Github\\Casual_MonsterDaycare\\Monster Daycare\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity 2022.3.37f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity 2022.3.37f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -33160,6 +33160,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1300b0aE.dag.json",
-  "PayloadsFile": "C:/GitHub/Casual_MonsterDaycare/Monster Daycare/Library/Bee/1300b0aE.dag.payloads",
+  "PayloadsFile": "C:/Github/Casual_MonsterDaycare/Monster Daycare/Library/Bee/1300b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
