@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: a7ea3aceeb79d42ec8a1c718249908da
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BaseDaycare.unity
     guid: bb0d3721f704a0d42a4135160b2e9d94
   - enabled: 1
