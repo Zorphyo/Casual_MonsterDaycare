@@ -20,6 +20,7 @@ public class SceneManager : MonoBehaviour
         Title,
         Game,
         BaseDaycare1,
+        BaseDaycare2,
         HowToPlay,
         MainMenu,
         LevelSelect,
@@ -49,6 +50,18 @@ public class SceneManager : MonoBehaviour
     {
         difficulty = "Hard";
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare1.ToString());
+    }
+
+    public void LoadBaseDaycare2Easy()
+    {
+        difficulty = "Easy";
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare2.ToString());
+    }
+
+    public void LoadBaseDaycare2Hard()
+    {
+        difficulty = "Hard";
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare2.ToString());
     }
     public void LoadHowToPlay()
     {
