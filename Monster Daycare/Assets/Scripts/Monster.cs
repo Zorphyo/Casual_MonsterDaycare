@@ -65,7 +65,7 @@ public class Monster : MonoBehaviour
 
         random = Random.Range(minTime, maxTime);
 
-        InvokeRepeating("CreateTask", 5.0f, random);
+        InvokeRepeating("CreateTask", 7.0f, random);
     }
 
     // Update is called once per frame
