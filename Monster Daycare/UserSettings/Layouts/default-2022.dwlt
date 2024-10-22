@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 482.66666
     height: 772.6667
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -406,9 +406,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00600000
-    m_LastClickedID: 24576
-    m_ExpandedIDs: 000000001c600000226f0000246f0000266f0000286f00002a6f00002c6f00002e6f000000ca9a3b
+    m_SelectedIDs: 1c6a0000
+    m_LastClickedID: 27164
+    m_ExpandedIDs: 00000000ca690000cc690000ce690000d0690000d2690000d4690000d6690000d869000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -436,7 +436,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c600000226f0000246f0000266f0000286f00002a6f00002c6f00002e6f0000
+    m_ExpandedIDs: 00000000ca690000cc690000ce690000d0690000d2690000d4690000d6690000d8690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,9 +576,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b06e0000
+      m_SelectedIDs: 58690000
       m_LastClickedID: 0
-      m_ExpandedIDs: 22c3ffff36c9ffff94d1ffff9ed3ffffc2eaffff12680000fea80000daad000090c90000
+      m_ExpandedIDs: 62c5fffff4ceffff44cfffff92cfffff64d1ffff9eeeffffeeeeffff56f7ffff26fbffff0c6100009862000008630000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -932,9 +932,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 728.0904, y: 469.28308, z: -675.9518}
+    m_Target: {x: -0.3548781, y: 12.983296, z: -9.024049}
     speed: 2
-    m_Value: {x: 728.0904, y: 469.28308, z: -675.9518}
+    m_Value: {x: -0.3548781, y: 12.983296, z: -9.024049}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -980,13 +980,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.04639819, y: 0.00087707536, z: 0.0033440099, w: 1.000712}
+    m_Target: {x: 0.34196746, y: 0.0022860244, z: 0.0012937686, w: 0.94168437}
     speed: 2
-    m_Value: {x: 0.046315145, y: 0.00087550556, z: 0.0033380247, w: 0.9989209}
+    m_Value: {x: 0.3413346, y: 0.0032217524, z: 0.0009500257, w: 0.93993586}
   m_Size:
-    m_Target: 187.53166
+    m_Target: 8.7641
     speed: 2
-    m_Value: 187.53166
+    m_Value: 8.386699
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -10,6 +10,9 @@ public class Monster : MonoBehaviour
     [SerializeField] TextMeshProUGUI taskTimer1Text;
     [SerializeField] TextMeshProUGUI taskTimer2Text;
     [SerializeField] TextMeshProUGUI taskTimer3Text;
+    [SerializeField] Image task1Timer;
+    [SerializeField] Image task2Timer;
+    [SerializeField] Image task3Timer;
     [SerializeField] TextMeshProUGUI task1Text;
     [SerializeField] TextMeshProUGUI task2Text;
     [SerializeField] TextMeshProUGUI task3Text;
@@ -138,7 +141,8 @@ public class Monster : MonoBehaviour
             }
 
             int seconds = Mathf.FloorToInt(timeForTask1 % 60);
-            taskTimer1Text.text = string.Format("{0:0}", seconds); 
+            taskTimer1Text.text = string.Format("{0:0}", seconds);
+            task1Timer.fillAmount = Mathf.InverseLerp(1, holdingTimeForTask, timeForTask1); 
         }
 
         else 
@@ -216,7 +220,8 @@ public class Monster : MonoBehaviour
             }
 
             int seconds = Mathf.FloorToInt(timeForTask2 % 60);
-            taskTimer2Text.text = string.Format("{0:0}", seconds); 
+            taskTimer2Text.text = string.Format("{0:0}", seconds);
+            task2Timer.fillAmount = Mathf.InverseLerp(1, holdingTimeForTask, timeForTask2); 
         }
 
         else 
@@ -295,6 +300,7 @@ public class Monster : MonoBehaviour
 
             int seconds = Mathf.FloorToInt(timeForTask3 % 60);
             taskTimer3Text.text = string.Format("{0:0}", seconds); 
+            task3Timer.fillAmount = Mathf.InverseLerp(1, holdingTimeForTask, timeForTask3);
         }
 
         else 
