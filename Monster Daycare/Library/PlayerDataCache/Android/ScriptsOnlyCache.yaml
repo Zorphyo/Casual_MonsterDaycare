@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CountdownTimer
     - DescriptionEditor
     - DifficultyInteract
     - FixedJoystick
@@ -110,21 +111,6 @@ ScriptsOnlyBuild:
     fullTypeName: SceneManager
     methodName: QuitGame
   - assembly: Assembly-CSharp
-    fullTypeName: PauseManager
-    methodName: Pause
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseManager
-    methodName: UnPause
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: LoadMainMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: LoadTitle
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
     fullTypeName: SceneManager
     methodName: LoadMainMenu
   - assembly: Assembly-CSharp
@@ -153,13 +139,13 @@ ScriptsOnlyBuild:
     methodName: LoadShop
   - assembly: Assembly-CSharp
     fullTypeName: SceneManager
-    methodName: LoadBaseDaycare1Hard
+    methodName: LoadBaseDaycare2Hard
   - assembly: Assembly-CSharp
     fullTypeName: SceneManager
     methodName: LoadBaseDaycare1Hard
   - assembly: Assembly-CSharp
     fullTypeName: SceneManager
-    methodName: LoadBaseDaycare1Easy
+    methodName: LoadBaseDaycare2Easy
   - assembly: Assembly-CSharp
     fullTypeName: SceneManager
     methodName: LoadBaseDaycare1Hard
@@ -176,6 +162,9 @@ ScriptsOnlyBuild:
     fullTypeName: SceneManager
     methodName: LoadMainMenu
   - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: LoadMainMenu
+  - assembly: Assembly-CSharp
     fullTypeName: PauseManager
     methodName: UnPause
   - assembly: Assembly-CSharp
@@ -185,92 +174,33 @@ ScriptsOnlyBuild:
     fullTypeName: SceneManager
     methodName: LoadTitle
   - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: LoadMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseManager
+    methodName: Pause
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: LoadMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: LoadTitle
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: LoadMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseManager
+    methodName: UnPause
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: LoadMainMenu
+  - assembly: Assembly-CSharp
     fullTypeName: PauseManager
     methodName: Pause
   sceneClasses:
-    Assets/Scenes/BaseDaycare.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16766}
-    - Class: 114
-      Script: {instanceID: 16770}
-    - Class: 114
-      Script: {instanceID: 17350}
-    - Class: 114
-      Script: {instanceID: 17926}
-    - Class: 114
-      Script: {instanceID: 17976}
-    - Class: 114
-      Script: {instanceID: 18210}
-    - Class: 114
-      Script: {instanceID: 18562}
-    - Class: 114
-      Script: {instanceID: 18674}
-    - Class: 114
-      Script: {instanceID: 19292}
-    - Class: 114
-      Script: {instanceID: 20680}
-    - Class: 114
-      Script: {instanceID: 20956}
-    - Class: 114
-      Script: {instanceID: 21214}
-    - Class: 114
-      Script: {instanceID: 21628}
-    - Class: 114
-      Script: {instanceID: 21814}
-    - Class: 114
-      Script: {instanceID: 21982}
-    - Class: 114
-      Script: {instanceID: 22220}
-    - Class: 114
-      Script: {instanceID: 23668}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/BaseDaycare1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -292,9 +222,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -307,35 +243,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16770}
     - Class: 114
-      Script: {instanceID: 17350}
+      Script: {instanceID: 17358}
     - Class: 114
-      Script: {instanceID: 17926}
+      Script: {instanceID: 17934}
     - Class: 114
-      Script: {instanceID: 17976}
+      Script: {instanceID: 17984}
     - Class: 114
-      Script: {instanceID: 18210}
+      Script: {instanceID: 18218}
     - Class: 114
-      Script: {instanceID: 18562}
+      Script: {instanceID: 18570}
     - Class: 114
-      Script: {instanceID: 18674}
+      Script: {instanceID: 18682}
     - Class: 114
-      Script: {instanceID: 19292}
+      Script: {instanceID: 19300}
     - Class: 114
-      Script: {instanceID: 20680}
+      Script: {instanceID: 20690}
     - Class: 114
-      Script: {instanceID: 20956}
+      Script: {instanceID: 20966}
     - Class: 114
-      Script: {instanceID: 21214}
+      Script: {instanceID: 21224}
     - Class: 114
-      Script: {instanceID: 21628}
+      Script: {instanceID: 21638}
     - Class: 114
-      Script: {instanceID: 21814}
+      Script: {instanceID: 21826}
     - Class: 114
-      Script: {instanceID: 21982}
+      Script: {instanceID: 21994}
     - Class: 114
-      Script: {instanceID: 22220}
+      Script: {instanceID: 22232}
     - Class: 114
-      Script: {instanceID: 23668}
+      Script: {instanceID: 23684}
+    - Class: 114
+      Script: {instanceID: 25906}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -356,7 +294,102 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
     - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/Scenes/BaseDaycare2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16766}
+    - Class: 114
+      Script: {instanceID: 16770}
+    - Class: 114
+      Script: {instanceID: 17358}
+    - Class: 114
+      Script: {instanceID: 17934}
+    - Class: 114
+      Script: {instanceID: 17984}
+    - Class: 114
+      Script: {instanceID: 18218}
+    - Class: 114
+      Script: {instanceID: 18570}
+    - Class: 114
+      Script: {instanceID: 18682}
+    - Class: 114
+      Script: {instanceID: 19300}
+    - Class: 114
+      Script: {instanceID: 20690}
+    - Class: 114
+      Script: {instanceID: 20966}
+    - Class: 114
+      Script: {instanceID: 21224}
+    - Class: 114
+      Script: {instanceID: 21638}
+    - Class: 114
+      Script: {instanceID: 21826}
+    - Class: 114
+      Script: {instanceID: 21994}
+    - Class: 114
+      Script: {instanceID: 22232}
+    - Class: 114
+      Script: {instanceID: 23684}
+    - Class: 114
+      Script: {instanceID: 25906}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
       Script: {instanceID: 0}
     Assets/Scenes/Extras.unity:
     - Class: 1
@@ -382,23 +415,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16766}
     - Class: 114
-      Script: {instanceID: 17976}
+      Script: {instanceID: 17984}
     - Class: 114
-      Script: {instanceID: 18210}
+      Script: {instanceID: 18218}
     - Class: 114
-      Script: {instanceID: 18562}
+      Script: {instanceID: 18570}
     - Class: 114
-      Script: {instanceID: 20956}
+      Script: {instanceID: 20966}
     - Class: 114
-      Script: {instanceID: 21214}
+      Script: {instanceID: 21224}
     - Class: 114
-      Script: {instanceID: 21302}
+      Script: {instanceID: 21312}
     - Class: 114
-      Script: {instanceID: 21628}
+      Script: {instanceID: 21638}
     - Class: 114
-      Script: {instanceID: 21814}
+      Script: {instanceID: 21826}
     - Class: 114
-      Script: {instanceID: 22220}
+      Script: {instanceID: 22232}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -439,21 +472,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16766}
     - Class: 114
-      Script: {instanceID: 17976}
+      Script: {instanceID: 17984}
     - Class: 114
-      Script: {instanceID: 18210}
+      Script: {instanceID: 18218}
     - Class: 114
-      Script: {instanceID: 18562}
+      Script: {instanceID: 18570}
     - Class: 114
-      Script: {instanceID: 20956}
+      Script: {instanceID: 20966}
     - Class: 114
-      Script: {instanceID: 21214}
+      Script: {instanceID: 21224}
     - Class: 114
-      Script: {instanceID: 21628}
+      Script: {instanceID: 21638}
     - Class: 114
-      Script: {instanceID: 21814}
+      Script: {instanceID: 21826}
     - Class: 114
-      Script: {instanceID: 22220}
+      Script: {instanceID: 22232}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -494,23 +527,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16766}
     - Class: 114
-      Script: {instanceID: 17976}
+      Script: {instanceID: 17984}
     - Class: 114
-      Script: {instanceID: 18210}
+      Script: {instanceID: 18218}
     - Class: 114
-      Script: {instanceID: 18562}
+      Script: {instanceID: 18570}
     - Class: 114
-      Script: {instanceID: 19314}
+      Script: {instanceID: 19322}
     - Class: 114
-      Script: {instanceID: 20956}
+      Script: {instanceID: 20966}
     - Class: 114
-      Script: {instanceID: 21214}
+      Script: {instanceID: 21224}
     - Class: 114
-      Script: {instanceID: 21628}
+      Script: {instanceID: 21638}
     - Class: 114
-      Script: {instanceID: 21814}
+      Script: {instanceID: 21826}
     - Class: 114
-      Script: {instanceID: 22220}
+      Script: {instanceID: 22232}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -551,21 +584,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16766}
     - Class: 114
-      Script: {instanceID: 17976}
+      Script: {instanceID: 17984}
     - Class: 114
-      Script: {instanceID: 18210}
+      Script: {instanceID: 18218}
     - Class: 114
-      Script: {instanceID: 18562}
+      Script: {instanceID: 18570}
     - Class: 114
-      Script: {instanceID: 20956}
+      Script: {instanceID: 20966}
     - Class: 114
-      Script: {instanceID: 21214}
+      Script: {instanceID: 21224}
     - Class: 114
-      Script: {instanceID: 21628}
+      Script: {instanceID: 21638}
     - Class: 114
-      Script: {instanceID: 21814}
+      Script: {instanceID: 21826}
     - Class: 114
-      Script: {instanceID: 22220}
+      Script: {instanceID: 22232}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -606,23 +639,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16766}
     - Class: 114
-      Script: {instanceID: 17976}
+      Script: {instanceID: 17984}
     - Class: 114
-      Script: {instanceID: 18210}
+      Script: {instanceID: 18218}
     - Class: 114
-      Script: {instanceID: 18562}
+      Script: {instanceID: 18570}
     - Class: 114
-      Script: {instanceID: 20956}
+      Script: {instanceID: 20966}
     - Class: 114
-      Script: {instanceID: 21214}
+      Script: {instanceID: 21224}
     - Class: 114
-      Script: {instanceID: 21302}
+      Script: {instanceID: 21312}
     - Class: 114
-      Script: {instanceID: 21628}
+      Script: {instanceID: 21638}
     - Class: 114
-      Script: {instanceID: 21814}
+      Script: {instanceID: 21826}
     - Class: 114
-      Script: {instanceID: 22220}
+      Script: {instanceID: 22232}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -665,29 +698,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16766}
     - Class: 114
-      Script: {instanceID: 17468}
+      Script: {instanceID: 17476}
     - Class: 114
-      Script: {instanceID: 17976}
+      Script: {instanceID: 17984}
     - Class: 114
-      Script: {instanceID: 18210}
+      Script: {instanceID: 18218}
     - Class: 114
-      Script: {instanceID: 18562}
+      Script: {instanceID: 18570}
     - Class: 114
-      Script: {instanceID: 19648}
+      Script: {instanceID: 19658}
     - Class: 114
-      Script: {instanceID: 19774}
+      Script: {instanceID: 19784}
     - Class: 114
-      Script: {instanceID: 20078}
+      Script: {instanceID: 20088}
     - Class: 114
-      Script: {instanceID: 20956}
+      Script: {instanceID: 20966}
     - Class: 114
-      Script: {instanceID: 21214}
+      Script: {instanceID: 21224}
     - Class: 114
-      Script: {instanceID: 21628}
+      Script: {instanceID: 21638}
     - Class: 114
-      Script: {instanceID: 21814}
+      Script: {instanceID: 21826}
     - Class: 114
-      Script: {instanceID: 22220}
+      Script: {instanceID: 22232}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -863,7 +896,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a72684d0514740c2158b507ed8a80540
+      Hash: 347e62811981c332bb2173a10480e2c7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Monster
@@ -1043,7 +1076,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
-      Hash: aa13b94574925b755a91402beb1bc0c8
+      Hash: 4846dd7330f633784c36a56c7f6fe40a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -1445,7 +1478,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 7e501b6f62eb77b68de1272d107c76fd
+      Hash: d16759b7f34f82e754e0d8798204157c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Timer
@@ -2061,14 +2094,20 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 46e8472bcdd51e8b9c740011d66437ea
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CountdownTimer
   platform: 13
   scenePathNames:
   - Assets/Scenes/Title.unity
   - Assets/Scenes/Shop.unity
   - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/BaseDaycare.unity
   - Assets/Scenes/HowToPlay.unity
   - Assets/Scenes/Extras.unity
   - Assets/Scenes/LevelSelect.unity
   - Assets/Scenes/BaseDaycare1.unity
-  playerPath: C:/Users/Ryan/Desktop/Casual Mechanics Prototype.apk
+  - Assets/Scenes/BaseDaycare2.unity
+  playerPath: C:/Users/Ryan/Desktop/Monster Daycare v0.3 (Feature 2).apk
