@@ -9,6 +9,7 @@ public class CountdownTimer : MonoBehaviour
     public int countdownTime;
     public TextMeshProUGUI countdownText;
     [SerializeField] Button pauseButton;
+    [SerializeField] GameObject joystick;
 
     IEnumerator CountDownToStart()
     {
@@ -30,6 +31,8 @@ public class CountdownTimer : MonoBehaviour
         GameManager.gameStarted = true;
 
         pauseButton.gameObject.SetActive(true);
+
+        joystick.SetActive(true);
     }
 
     // Start is called before the first frame update

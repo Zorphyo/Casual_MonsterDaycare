@@ -36,6 +36,15 @@ public class Monster : MonoBehaviour
     public Image heart1;
     public Image heart2;
     public Image heart3;
+
+    public AudioClip mediumBaby;
+    public AudioClip angryBaby;
+    public AudioClip death;
+    public AudioClip outOfTime;
+    public AudioClip taskSuccess;
+
+    AudioSource audioSource;
+
     [HideInInspector] public int hearts = 3;
 
     PlayerMovement player;
@@ -47,6 +56,7 @@ public class Monster : MonoBehaviour
         player = FindObjectOfType<PlayerMovement>();
         timer = FindObjectOfType<Timer>();
         mesh = GetComponent<SkinnedMeshRenderer>();
+        audioSource = GetComponent<AudioSource>();
 
         if (SceneManager.difficulty == "Easy")
         {
@@ -65,6 +75,8 @@ public class Monster : MonoBehaviour
         timeForTask1 = holdingTimeForTask;
         timeForTask2 = holdingTimeForTask;
         timeForTask3 = holdingTimeForTask;
+
+
 
         random = Random.Range(minTime, maxTime);
 
@@ -94,10 +106,16 @@ public class Monster : MonoBehaviour
 
                 task1Text.text = "1. ";
 
+                audioSource.clip = outOfTime;
+                audioSource.Play();
+
                 if (hearts == 3)
                 {
                     heart3.enabled = false;
                     heart3.gameObject.SetActive(false);
+
+                    audioSource.clip = mediumBaby;
+                    audioSource.Play();
 
                     mesh.sharedMesh = middleBaby.sharedMesh;
                     Material[] newMaterials = new Material[middleBaby.sharedMaterials.Length];
@@ -116,6 +134,9 @@ public class Monster : MonoBehaviour
                     heart2.enabled = false;
                     heart2.gameObject.SetActive(false);
 
+                    audioSource.clip = angryBaby;
+                    audioSource.Play();
+
                     mesh.sharedMesh = finalBaby.sharedMesh;
                     Material[] newMaterials = new Material[finalBaby.sharedMaterials.Length];
 
@@ -132,7 +153,10 @@ public class Monster : MonoBehaviour
                 {
                     heart1.enabled = false;
                     heart1.gameObject.SetActive(false);
-                    timer.gameOver = true;
+                    Timer.gameOver = true;
+
+                    audioSource.clip = death;
+                    audioSource.Play();
                 }
 
                 hearts--;
@@ -173,10 +197,16 @@ public class Monster : MonoBehaviour
 
                 task2Text.text = "2. ";
 
+                audioSource.clip = outOfTime;
+                audioSource.Play();
+
                 if (hearts == 3)
                 {
                     heart3.enabled = false;
                     heart3.gameObject.SetActive(false);
+
+                    audioSource.clip = mediumBaby;
+                    audioSource.Play();
 
                     mesh.sharedMesh = middleBaby.sharedMesh;
                     Material[] newMaterials = new Material[middleBaby.sharedMaterials.Length];
@@ -195,6 +225,9 @@ public class Monster : MonoBehaviour
                     heart2.enabled = false;
                     heart2.gameObject.SetActive(false);
 
+                    audioSource.clip = angryBaby;
+                    audioSource.Play();
+
                     mesh.sharedMesh = finalBaby.sharedMesh;
                     Material[] newMaterials = new Material[finalBaby.sharedMaterials.Length];
 
@@ -211,7 +244,10 @@ public class Monster : MonoBehaviour
                 {
                     heart1.enabled = false;
                     heart1.gameObject.SetActive(false);
-                    timer.gameOver = true;
+                    Timer.gameOver = true;
+
+                    audioSource.clip = death;
+                    audioSource.Play();
                 }
 
                 hearts--;
@@ -252,10 +288,16 @@ public class Monster : MonoBehaviour
 
                 task3Text.text = "3. ";
 
+                audioSource.clip = outOfTime;
+                audioSource.Play();
+
                 if (hearts == 3)
                 {
                     heart3.enabled = false;
                     heart3.gameObject.SetActive(false);
+
+                    audioSource.clip = mediumBaby;
+                    audioSource.Play();
 
                     mesh.sharedMesh = middleBaby.sharedMesh;
                     Material[] newMaterials = new Material[middleBaby.sharedMaterials.Length];
@@ -274,6 +316,9 @@ public class Monster : MonoBehaviour
                     heart2.enabled = false;
                     heart2.gameObject.SetActive(false);
 
+                    audioSource.clip = angryBaby;
+                    audioSource.Play();
+
                     mesh.sharedMesh = finalBaby.sharedMesh;
                     Material[] newMaterials = new Material[finalBaby.sharedMaterials.Length];
 
@@ -290,7 +335,10 @@ public class Monster : MonoBehaviour
                 {
                     heart1.enabled = false;
                     heart1.gameObject.SetActive(false);
-                    timer.gameOver = true;
+                    Timer.gameOver = true;
+
+                    audioSource.clip = death;
+                    audioSource.Play();
                 }
 
                 hearts--;
@@ -311,7 +359,7 @@ public class Monster : MonoBehaviour
             task3Text.text = "3. ";
         }
 
-        if (timer.gameOver)
+        if (Timer.gameOver)
         {
             isTask1Active = false;
             isTask2Active = false;
@@ -332,6 +380,9 @@ public class Monster : MonoBehaviour
             taskTimer1Text.gameObject.SetActive(false);
 
             task1Text.text = "1. ";
+
+            audioSource.clip = taskSuccess;
+            audioSource.Play();
         }
 
         if(isTask2Active && player.hasItem == true && player.heldItem == task2Item)
@@ -344,6 +395,9 @@ public class Monster : MonoBehaviour
             taskTimer2Text.gameObject.SetActive(false);
 
             task2Text.text = "2. ";
+
+            audioSource.clip = taskSuccess;
+            audioSource.Play();
         }
 
         if(isTask3Active && player.hasItem == true && player.heldItem == task3Item)
@@ -356,6 +410,9 @@ public class Monster : MonoBehaviour
             taskTimer3Text.gameObject.SetActive(false);
 
             task1Text.text = "3. ";
+
+            audioSource.clip = taskSuccess;
+            audioSource.Play();
         }
     }
 

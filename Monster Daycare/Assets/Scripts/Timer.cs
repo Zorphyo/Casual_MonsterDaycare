@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
     [SerializeField] GameObject winText;
     [SerializeField] GameObject loseText;
     [SerializeField] float remainingTime;
-    [HideInInspector] public bool gameOver = false;
+    public static bool gameOver = false;
     Monster monster;
 
     // Start is called before the first frame update

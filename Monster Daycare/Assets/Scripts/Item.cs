@@ -12,6 +12,8 @@ public class Item : MonoBehaviour
 
     private PlayerMovement player;
 
+    AudioSource audioSource;
+
     void Awake()
     {
         itemButton.onClick.AddListener(() => PickUpItem(itemName));
@@ -21,6 +23,7 @@ public class Item : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerMovement>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -58,5 +61,7 @@ public class Item : MonoBehaviour
         //itemButton.interactable = false;
 
         inventoryText.text = "Inventory: " + itemName;
+
+        audioSource.Play();
     }
 }
