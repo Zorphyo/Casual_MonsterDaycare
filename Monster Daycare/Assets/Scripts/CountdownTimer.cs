@@ -8,6 +8,7 @@ public class CountdownTimer : MonoBehaviour
 {
     public int countdownTime;
     public TextMeshProUGUI countdownText;
+    [SerializeField] Button pauseButton;
 
     IEnumerator CountDownToStart()
     {
@@ -27,6 +28,8 @@ public class CountdownTimer : MonoBehaviour
         countdownText.gameObject.SetActive(false);
 
         GameManager.gameStarted = true;
+
+        pauseButton.gameObject.SetActive(true);
     }
 
     // Start is called before the first frame update

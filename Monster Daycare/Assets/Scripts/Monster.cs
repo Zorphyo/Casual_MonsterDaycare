@@ -74,7 +74,7 @@ public class Monster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isTask1Active)
+        if (isTask1Active && !PauseManager.isPaused)
         {
             taskTimer1Text.enabled = true;
             taskTimer1Text.gameObject.SetActive(true);
@@ -153,7 +153,7 @@ public class Monster : MonoBehaviour
             task1Text.text = "1. ";
         }
 
-        if (isTask2Active)
+        if (isTask2Active && !PauseManager.isPaused)
         {
             taskTimer2Text.enabled = true;
             taskTimer2Text.gameObject.SetActive(true);
@@ -232,7 +232,7 @@ public class Monster : MonoBehaviour
             task2Text.text = "2. ";
         }
 
-        if (isTask3Active)
+        if (isTask3Active && !PauseManager.isPaused)
         {
             taskTimer3Text.enabled = true;
             taskTimer3Text.gameObject.SetActive(true);

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PauseManager : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public static bool isPaused = false;
     
     // Start is called before the first frame update
     void Start()
@@ -24,9 +25,13 @@ public class PauseManager : MonoBehaviour
     public void UnPause()
     {
         pauseMenu.SetActive(false);
+        isPaused = false;
+        Time.timeScale = 1;
     }
     public void Pause()
     {
         pauseMenu.SetActive(true);
+        isPaused = true;
+        Time.timeScale = 0;
     }
 }
