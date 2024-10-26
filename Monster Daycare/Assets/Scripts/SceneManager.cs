@@ -87,4 +87,12 @@ public class SceneManager : MonoBehaviour
     {
         Application.Quit();
     }
+    public void ReloadScene1()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare1.ToString());
+    }
+    public void ReloadScene2()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare2.ToString());
+    }
 }
