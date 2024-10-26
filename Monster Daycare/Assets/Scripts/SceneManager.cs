@@ -89,10 +89,14 @@ public class SceneManager : MonoBehaviour
     }
     public void ReloadScene1()
     {
+        Timer.gameOver = false;
+        GameManager.gameStarted = false;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare1.ToString());
     }
     public void ReloadScene2()
     {
+        Timer.gameOver = false;
+        GameManager.gameStarted = false;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare2.ToString());
     }
 }

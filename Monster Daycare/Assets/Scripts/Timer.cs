@@ -48,14 +48,12 @@ public class Timer : MonoBehaviour
         if (remainingTime < 1)
         {
             gameOver = true;
-            //winText.enabled = true;
             winText.SetActive(true);
         }
 
         if (monster.hearts == 0)
         {
             gameOver = true;
-            //loseText.enabled = true;
             loseText.SetActive(true);
         }
     }
