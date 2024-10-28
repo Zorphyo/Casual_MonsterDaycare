@@ -16,12 +16,14 @@ public class PlayerMovement : MonoBehaviour
 
     float horizontal, vertical;
 
+    Rigidbody rb;
     AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -38,7 +40,8 @@ public class PlayerMovement : MonoBehaviour
         horizontal = joystick.Horizontal * speed;
         vertical = joystick.Vertical * speed;
 
-        transform.Translate(horizontal, 0, vertical);
+        //transform.Translate(horizontal, 0, vertical);
+        rb.velocity = new Vector3(horizontal, 0, vertical);
     }
 
     public void GiveItem()
