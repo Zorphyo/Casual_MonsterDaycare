@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] GameObject winText;
     [SerializeField] GameObject loseText;
+    [SerializeField] TextMeshProUGUI currencyText;
     [SerializeField] float remainingTime;
     public static bool gameOver = false;
     Monster monster;
@@ -45,11 +46,13 @@ public class Timer : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (remainingTime < 1)
+        if (remainingTime < 1 && gameOver == false)
         {
             gameOver = true;
             winText.SetActive(true);
-            CurrencyManager.playerCurrency = CalculateReward();
+            int reward = CalculateReward();
+            currencyText.text = "+" + reward.ToString();
+            CurrencyManager.playerCurrency += reward;
         }
 
         if (monster.hearts == 0)
