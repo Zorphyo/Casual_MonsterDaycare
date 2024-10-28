@@ -49,6 +49,7 @@ public class Timer : MonoBehaviour
         {
             gameOver = true;
             winText.SetActive(true);
+            CurrencyManager.playerCurrency = CalculateReward();
         }
 
         if (monster.hearts == 0)
@@ -56,5 +57,34 @@ public class Timer : MonoBehaviour
             gameOver = true;
             loseText.SetActive(true);
         }
+    }
+
+    int CalculateReward()
+    {
+       int multiplier = 1;
+
+       if (SceneManager.difficulty == "Hard")
+       {
+            multiplier = 2;
+       }
+       
+       int reward;
+
+       if (monster.hearts == 3)
+       {
+            reward = 50 * multiplier;
+       }
+
+       else if (monster.hearts == 2)
+       {
+            reward = 35 * multiplier;
+       }
+
+       else 
+       {
+            reward = 25 * multiplier;
+       }
+
+       return reward;
     }
 }

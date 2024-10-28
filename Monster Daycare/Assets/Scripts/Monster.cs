@@ -76,8 +76,6 @@ public class Monster : MonoBehaviour
         timeForTask2 = holdingTimeForTask;
         timeForTask3 = holdingTimeForTask;
 
-
-
         random = Random.Range(minTime, maxTime);
 
         InvokeRepeating("CreateTask", 7.0f, random);

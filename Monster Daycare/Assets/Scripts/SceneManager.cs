@@ -43,24 +43,40 @@ public class SceneManager : MonoBehaviour
     public void LoadBaseDaycare1Easy()
     {
         difficulty = "Easy";
+        Timer.gameOver = false;
+        GameManager.gameStarted = false;
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare1.ToString());
     }
 
     public void LoadBaseDaycare1Hard()
     {
         difficulty = "Hard";
+        Timer.gameOver = false;
+        GameManager.gameStarted = false;
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare1.ToString());
     }
 
     public void LoadBaseDaycare2Easy()
     {
         difficulty = "Easy";
+        Timer.gameOver = false;
+        GameManager.gameStarted = false;
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare2.ToString());
     }
 
     public void LoadBaseDaycare2Hard()
     {
         difficulty = "Hard";
+        Timer.gameOver = false;
+        GameManager.gameStarted = false;
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare2.ToString());
     }
     public void LoadHowToPlay()
@@ -69,6 +85,8 @@ public class SceneManager : MonoBehaviour
     }
     public void LoadMainMenu()
     {
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.MainMenu.ToString());
     }
     public void LoadLevelSelect()
@@ -91,12 +109,16 @@ public class SceneManager : MonoBehaviour
     {
         Timer.gameOver = false;
         GameManager.gameStarted = false;
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare1.ToString());
     }
     public void ReloadScene2()
     {
         Timer.gameOver = false;
         GameManager.gameStarted = false;
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare2.ToString());
     }
 }

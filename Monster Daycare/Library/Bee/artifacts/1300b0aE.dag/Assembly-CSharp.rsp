@@ -375,6 +375,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/Scripts/CountdownTimer.cs"
+"Assets/Scripts/CurrencyManager.cs"
 "Assets/Scripts/DescriptionEditor.cs"
 "Assets/Scripts/DifficultyInteract.cs"
 "Assets/Scripts/GameManager.cs"
