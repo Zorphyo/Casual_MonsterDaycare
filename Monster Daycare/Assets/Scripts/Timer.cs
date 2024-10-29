@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] GameObject winText;
     [SerializeField] GameObject loseText;
-    [SerializeField] TextMeshProUGUI currencyText;
+    [SerializeField] TextMeshProUGUI rewardText;
     [SerializeField] float remainingTime;
     public static bool gameOver = false;
     Monster monster;
@@ -21,6 +21,7 @@ public class Timer : MonoBehaviour
         monster = FindObjectOfType<Monster>();
         winText.SetActive(false);
         loseText.SetActive(false);
+        gameOver = false;
     }
 
     // Update is called once per frame
@@ -48,11 +49,12 @@ public class Timer : MonoBehaviour
     {
         if (remainingTime < 1 && gameOver == false)
         {
-            gameOver = true;
             winText.SetActive(true);
             int reward = CalculateReward();
-            currencyText.text = "+" + reward.ToString();
+            rewardText.text = "+" + reward.ToString();
             CurrencyManager.playerCurrency += reward;
+            PlayerPrefs.SetInt("Currency", CurrencyManager.playerCurrency);
+            gameOver = true;
         }
 
         if (monster.hearts == 0)
