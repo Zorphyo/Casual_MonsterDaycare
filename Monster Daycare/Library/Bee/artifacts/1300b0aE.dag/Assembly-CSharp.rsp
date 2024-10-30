@@ -389,6 +389,7 @@
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/SceneManager.cs"
 "Assets/Scripts/ShopEditor.cs"
+"Assets/Scripts/ShopItem.cs"
 "Assets/Scripts/Timer.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

@@ -58,7 +58,6 @@ public class Item : MonoBehaviour
     {
         player.hasItem = true;
         player.heldItem = itemName;
-        //itemButton.interactable = false;
 
         inventoryText.text = "Inventory: " + itemName;
 
