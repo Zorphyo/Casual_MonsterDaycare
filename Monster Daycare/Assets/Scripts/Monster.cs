@@ -79,6 +79,8 @@ public class Monster : MonoBehaviour
         random = Random.Range(minTime, maxTime);
 
         InvokeRepeating("CreateTask", 7.0f, random);
+
+        EquipCustomizationParts();
     }
 
     // Update is called once per frame
@@ -441,6 +443,41 @@ public class Monster : MonoBehaviour
             random = Random.Range(1, itemNames.Count);
 
             task3Item = itemNames[random - 1];
+        }
+    }
+
+    void EquipCustomizationParts()
+    {
+        GameObject itemToEquip = null;
+
+        if (PlayerPrefs.GetInt("Afro Equipped") == 0)
+        {
+            itemToEquip = GameObject.Find("Afro");
+            itemToEquip.SetActive(false);
+        }
+
+        if (PlayerPrefs.GetInt("Sunglasses Equipped") == 0)
+        {
+            itemToEquip = GameObject.Find("Sunglasses");
+            itemToEquip.SetActive(false);
+        }
+
+        if (PlayerPrefs.GetInt("Fake Mustache Equipped") == 0)
+        {
+            itemToEquip = GameObject.Find("Fake Mustache");
+            itemToEquip.SetActive(false);
+        }
+
+        if (PlayerPrefs.GetInt("Pink Bow Equipped") == 0)
+        {
+            itemToEquip = GameObject.Find("Pink Bow");
+            itemToEquip.SetActive(false);
+        }
+
+        if (PlayerPrefs.GetInt("Sticky Note Equipped") == 0)
+        {
+            itemToEquip = GameObject.Find("Sticky Note");
+            itemToEquip.SetActive(false);
         }
     }
 }

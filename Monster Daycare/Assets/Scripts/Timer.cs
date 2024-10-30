@@ -53,6 +53,12 @@ public class Timer : MonoBehaviour
             int reward = CalculateReward();
             rewardText.text = "+" + reward.ToString();
             CurrencyManager.playerCurrency += reward;
+
+            if (CurrencyManager.playerCurrency > 9999)
+            {
+                CurrencyManager.playerCurrency = 9999;
+            }
+
             PlayerPrefs.SetInt("Currency", CurrencyManager.playerCurrency);
             gameOver = true;
         }

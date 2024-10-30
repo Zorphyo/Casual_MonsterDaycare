@@ -15,12 +15,11 @@ public class CurrencyManager : MonoBehaviour
         //PlayerPrefs.SetInt("Currency", 0);
         playerCurrency = PlayerPrefs.GetInt("Currency", 0);
         Debug.Log(PlayerPrefs.GetInt("Currency"));
-        currencyText.text = playerCurrency.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        currencyText.text = playerCurrency.ToString();
     }
 }

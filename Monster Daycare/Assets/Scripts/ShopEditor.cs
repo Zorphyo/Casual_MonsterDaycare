@@ -10,6 +10,7 @@ public class ShopEditor : MonoBehaviour
     public GameObject Description3;
     public GameObject Description4;
     public GameObject Description5;
+
     // Start is called before the first frame update
     void Start()
     {

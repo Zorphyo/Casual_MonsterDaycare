@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8654746613539374431}
   - component: {fileID: 3295700846938087756}
   m_Layer: 0
-  m_Name: Bow
+  m_Name: Pink Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 6835208341119728455}
   - component: {fileID: 4819556320576375627}
   m_Layer: 0
-  m_Name: Note
+  m_Name: Sticky Note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 6128773509821957058}
   - component: {fileID: 4391765556261169970}
   m_Layer: 0
-  m_Name: Mustache
+  m_Name: Fake Mustache
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 7877953943420342263}
   - component: {fileID: 7900422836473545405}
   m_Layer: 0
-  m_Name: Glasses
+  m_Name: Sunglasses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
