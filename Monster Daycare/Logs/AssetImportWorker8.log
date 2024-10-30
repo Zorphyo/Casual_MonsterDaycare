@@ -1,0 +1,1202 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.37f1 (340ba89e4c23) revision 3410856'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32717 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Hub\Editor\2022.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/GitHub/Casual_MonsterDaycare/Monster Daycare
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+49513
+Successfully changed project path to: C:/GitHub/Casual_MonsterDaycare/Monster Daycare
+C:/GitHub/Casual_MonsterDaycare/Monster Daycare
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25956] Host "[IP] 172.30.13.97 [Port] 0 [Flags] 2 [Guid] 4140109925 [EditorId] 4140109925 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O9R36KE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25956] Host "[IP] 172.30.13.97 [Port] 0 [Flags] 2 [Guid] 4140109925 [EditorId] 4140109925 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O9R36KE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 12.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.37f1 (340ba89e4c23)
+[Subsystems] Discovering subsystems at path E:/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/Casual_MonsterDaycare/Monster Daycare/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12011 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'E:/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: E:/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023378 seconds.
+- Loaded All Assemblies, in  0.405 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 307 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.639 seconds
+Domain Reload Profiling: 1040ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (441ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.747 seconds
+Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.703 seconds
+Domain Reload Profiling: 1442ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (371ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (703ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (189.0 KB). Loaded Objects now: 4559.
+Memory consumption went from 159.2 MB to 159.0 MB.
+Total: 3.317700 ms (FindLiveObjects: 0.335300 ms CreateObjectMapping: 0.108600 ms MarkObjects: 2.669600 ms  DeleteObjects: 0.203400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21108.391457 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '554ac46c9818ae234b382a0af2e50312') in 0.134625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 7.103142 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd046a5881e75f674e0438a9152fb8acf') in 0.075130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 9.592805 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '72feca8c28f782a9f54b57c6c09566d3') in 0.045956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 5.992292 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3a152b6076035e09d0856168e1722f2') in 0.048680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.778011 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53e15d8e66538b222939fc4684df3fbe') in 0.041101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.170682 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '08290bec03ee622f2cb0289b9134c3b7') in 0.042092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.772888 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a9985cf7bb7663b6b83f45889c0d4a23') in 0.054590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.154720 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '43a6d8a2312b26386a01d6aae9c8005f') in 0.038347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.970214 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '187d54167fac85cb66880c9c4dfa345c') in 0.043618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.777197 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb4bc2a4aa50120a0ae2039cd4fb9e66') in 0.043292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.562930 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5615530743d79a3ff973fb14c0bf8715') in 0.033464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 159.688876 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8c1983403a1f336bfd1851b6c2ca7872') in 0.046227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.772825 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46b2cb6f9ad7dff15bc1d77b6354a783') in 0.051084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.774832 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd7365f233254591bd50c9d42fcd94bb0') in 0.067270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.343997 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '567e1b5f3209b3de135e603354c25fb4') in 0.081949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.967110 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0cdde9d50e4628fa4ce36ebcc11e5544') in 0.035141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.370928 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '69f5ec5efd13fc582d66112fbbdedb0a') in 0.049752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.573829 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3b79c93f8a076d8a5f07ab338cbd6b8') in 0.039023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.973572 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fbb2daf6993a2c53bedffb116059a149') in 0.055028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.949165 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33e8e80e4b3e75c8c1425b8af5d6d202') in 0.044631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 6.000124 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aca53d4cf594f8f59373bbab584d1626') in 0.040464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.381206 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd83583a3de27f552932ffd94639b1cb8') in 0.033215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.787388 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7aef0487c173318c080aea6c6217bc29') in 0.043576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.569582 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a14a3e3823b571234b43fc384f69d05') in 0.039514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.368161 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0833339311d64935e853e8c7906b59b9') in 0.062024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 5.776940 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30626fea92a84f919ce63a1dd3f9c1b7') in 0.042276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.574089 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f3e9b1add247de4ec94a74723cd40a0') in 0.059438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.962303 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c190e9095456bd2bc55b190eee1f3bec') in 0.047357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.785961 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3a50b0ac3ffda3f14480e9c4d8c71ddd') in 0.062909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.769685 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea50677017c42af9ef1bec48370acd56') in 0.037252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.570107 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2b6167ed84177b7c1877809bd609d36a') in 0.054791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.155137 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9e3594f56eab5dd3c502fae50c0adee') in 0.043409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.973217 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '265ad95d8086365286674dd4c1e6527f') in 0.035416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.599443 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c523865c5113d15d9c9afc1c8e4c5d8') in 0.046474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.365893 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '34e13062b85cadaccb450368a7c7305b') in 0.033310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.780159 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0165f070defe257083a0a0b91fbe5ff') in 0.033686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.375178 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78a3c1e29521261a82dd89658a7694b0') in 0.040553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.171114 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '38dcabfd1d1572d8a431dd0be90a0d2a') in 0.043397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.176714 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1cf43548fdad195863fa5b0fe5342e10') in 0.054920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.961740 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4be61f76df24a2535744d50c267bb1e1') in 0.061545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.377843 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78247e3c334c3310cac764c0ad5959c5') in 0.068732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.142170 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fdce2c80e4ec3e73139d9b2f14432e36') in 0.064444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.146928 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0da1d8a00aa0d8da250e9cd4a0b7f6a') in 0.058912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.540849 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd01afe807ac16c9cedcb47451c1dab24') in 0.070667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.941039 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04fa9ebc4441e739b3514d5d57683e0b') in 0.053740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.582694 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c946d87238442f5e910c91c1e5fa96b8') in 0.051172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.963019 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c32d6b369da4e87a9ee0cf8d0d1e984c') in 0.050479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.171485 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c00a86ce5cd1e70e7d8e4be995b7c7a5') in 0.055527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.363066 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '58c1a33ec1cf059ed8c643df4c4b254f') in 0.055399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.162189 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5daa70b7f7c5459e2300d6535031c9ca') in 0.040598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.972867 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c875f9561a764da1c620fab939c10cf') in 0.042891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.768928 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2ba665030e820eeadd0702af695e7e2e') in 0.063432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.982077 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd60b3c2edd6a25830a6fa08e41fbfe4f') in 0.058760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.353509 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '891d1707b2fb51145d83135e7137fe46') in 0.049879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.161748 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '037cf9a01230c882ebdbabd6d8cbc7d6') in 0.040215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.369061 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fd2ce96f44e276bd201380adf2f7c913') in 0.044660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.783037 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7bfb5a70aea901c798d7305ca4ee35a') in 0.057495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 6.203140 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a6482793a43bd1b0623a08125edb7fd5') in 0.060602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.553813 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b91e2f01ddedc698848cfd4a93b5e7d2') in 0.048122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 6.190538 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '90f327d0cfd46adc1a0e1746dd17baa9') in 0.062190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.562010 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b04705c0adf2abdd420c40b2b04cd66') in 0.042644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.978556 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94f7f6e3c40a92706538d1e796b32025') in 0.054210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 7.394630 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c812791113619defc2dda42ffb52351') in 0.070747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.344536 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f5758a302a5608b463b9f05b81ac07eb') in 0.049883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.368538 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eebbab592c3fa4e11e738e3a76c529ae') in 0.041101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.374212 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94bc9f20558e43943382cb3e711a7e1f') in 0.052150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 16.025988 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3a3ba3b84422bdd14e8ff61967a8233e') in 0.054381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 10.023747 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '860554d47cb260c2b25a63bec6a679de') in 0.076235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.552100 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c6f97eeef66bfb0cb93497bad180c164') in 0.066814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.747781 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb9739ebaadb78b4cf860421f53dc27c') in 0.040784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 10.437447 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b858be6fb1c93c8f266914561b3a61b8') in 0.046516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 10.226948 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9df27302f21afc353e4b87eb2143f728') in 0.048073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.589795 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fde193169c3f7234fb2b53f2ee43d5d4') in 0.047436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.148893 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '870e2a0a6e241841f1cbddade87e6d3f') in 0.065186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.741130 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ecd92f27b401dfcaf2f0841ebc07226e') in 0.049675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.360577 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a69473666d0986771ed86c63016734b') in 0.058633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 5.569528 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eda6a651358eb37f233d5bad37503203') in 0.048463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 12.223731 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a428186aceaf4117cc5363e8a1aaefa') in 0.063125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.170623 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd44d89c18098bacbeb9b4e2cf7a0277d') in 0.043431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.973506 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b321d407e6bea1bd62a9ea264a07c5bd') in 0.056143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.577603 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f41302763ea76205248db59bc412b63d') in 0.071003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.141110 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd6ea94c5bc1887eb5006bbd1e03e5031') in 0.054590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.564072 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '76e50604daf8b901d6b849aafe255a5d') in 0.058875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.153596 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '95068158155e86c16c58ab65f41a6983') in 0.068790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.957672 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de2333cbcad56237cc8a1fd046fba334') in 0.050644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.572771 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b31f4a98cbedf152d1897f338b680c46') in 0.065832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 8.799089 seconds.
+  path: Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab
+  artifactKey: Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cthulhu Baby/Cthulhu Baby/cthulhuFirstForm.prefab using Guid(d4948e7eeb2bce14ca912a799f4ef1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1b5410c0a5a5d885419cc5c051fb59a2') in 0.051499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 7.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.640 seconds
+Domain Reload Profiling: 2297ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (455ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (634ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 8.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (169.3 KB). Loaded Objects now: 4581.
+Memory consumption went from 149.0 MB to 148.9 MB.
+Total: 3.578200 ms (FindLiveObjects: 0.427700 ms CreateObjectMapping: 0.098800 ms MarkObjects: 2.899200 ms  DeleteObjects: 0.151600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63.010238 seconds.
+  path: Assets/Scenes/BaseDaycare1.unity
+  artifactKey: Guid(368492026b5cfc84a8c1f5d990934334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BaseDaycare1.unity using Guid(368492026b5cfc84a8c1f5d990934334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5759ffbabc4a77e6864ae38fc6446d1a') in 0.003782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.628 seconds
+Refreshing native plugins compatible for Editor in 6.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.626 seconds
+Domain Reload Profiling: 2247ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 7.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (161.4 KB). Loaded Objects now: 4596.
+Memory consumption went from 149.1 MB to 148.9 MB.
+Total: 3.505600 ms (FindLiveObjects: 0.462200 ms CreateObjectMapping: 0.130800 ms MarkObjects: 2.748500 ms  DeleteObjects: 0.163300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
