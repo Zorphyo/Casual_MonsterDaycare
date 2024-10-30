@@ -33,6 +33,16 @@ public class PlayerMovement : MonoBehaviour
         {
             audioSource.Stop();
         }
+
+        if (horizontal != 0 || vertical != 0)
+        {
+            audioSource.enabled = true;
+        }
+
+        else 
+        {
+            audioSource.enabled = false;
+        }
     }
 
     private void FixedUpdate()
