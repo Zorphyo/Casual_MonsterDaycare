@@ -6,15 +6,15 @@ using TMPro;
 
 public class DescriptionEditor : MonoBehaviour
 {
-    public TMP_Text Description1;
-    public TMP_Text Description2;
-    public TMP_Text Description3;
+    public GameObject Description1;
+    public GameObject Description2;
+    public GameObject Description3;
     // Start is called before the first frame update
     void Start()
     {
-        Description1.enabled = false;
-        Description2.enabled = false;
-        Description3.enabled = false;
+        Description1.SetActive(false);
+        Description2.SetActive(false);
+        Description3.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,20 +24,20 @@ public class DescriptionEditor : MonoBehaviour
     }
     public void DescReveal1()
     {
-        Description1.enabled = true;
-        Description2.enabled = false;
-        Description3.enabled = false;
+        Description1.SetActive(true);
+        Description2.SetActive(false);
+        Description3.SetActive(false);
     }
     public void DescReveal2()
     {
-        Description1.enabled = false;
-        Description2.enabled = true;
-        Description3.enabled = false;
+        Description1.SetActive(false);
+        Description2.SetActive(true);
+        Description3.SetActive(false);
     }
     public void DescReveal3()
     {
-        Description1.enabled = false;
-        Description2.enabled = false;
-        Description3.enabled = true;
+        Description1.SetActive(false);
+        Description2.SetActive(false);
+        Description3.SetActive(true);
     }
 }
