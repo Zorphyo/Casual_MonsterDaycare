@@ -43,6 +43,10 @@ public class Monster : MonoBehaviour
     public AudioClip outOfTime;
     public AudioClip taskSuccess;
 
+    public ParticleSystem happyBaby;
+    public ParticleSystem upsetBaby;
+    public ParticleSystem madBaby;
+
     AudioSource audioSource;
 
     [HideInInspector] public int hearts = 3;
@@ -81,6 +85,8 @@ public class Monster : MonoBehaviour
         InvokeRepeating("CreateTask", 7.0f, random);
 
         EquipCustomizationParts();
+
+        happyBaby.Play();
     }
 
     // Update is called once per frame
@@ -127,6 +133,8 @@ public class Monster : MonoBehaviour
 
                     mesh.sharedMaterials = newMaterials;
                     
+                    happyBaby.Stop();
+                    upsetBaby.Play();
                 }
 
                 else if (hearts == 2)
@@ -147,6 +155,8 @@ public class Monster : MonoBehaviour
 
                     mesh.sharedMaterials = newMaterials;
                     
+                    upsetBaby.Stop();
+                    madBaby.Play();
                 }
 
                 else 
@@ -157,6 +167,7 @@ public class Monster : MonoBehaviour
 
                     audioSource.clip = death;
                     audioSource.Play();
+                    madBaby.Stop();
                 }
 
                 hearts--;
@@ -218,6 +229,8 @@ public class Monster : MonoBehaviour
 
                     mesh.sharedMaterials = newMaterials;
                     
+                    happyBaby.Stop();
+                    upsetBaby.Play();
                 }
 
                 else if (hearts == 2)
@@ -238,6 +251,8 @@ public class Monster : MonoBehaviour
 
                     mesh.sharedMaterials = newMaterials;
                     
+                    upsetBaby.Stop();
+                    madBaby.Play();
                 }
 
                 else 
@@ -248,6 +263,7 @@ public class Monster : MonoBehaviour
 
                     audioSource.clip = death;
                     audioSource.Play();
+                    madBaby.Stop();
                 }
 
                 hearts--;
@@ -309,6 +325,8 @@ public class Monster : MonoBehaviour
 
                     mesh.sharedMaterials = newMaterials;
 
+                    happyBaby.Stop();
+                    upsetBaby.Play();
                 }
 
                 else if (hearts == 2)
@@ -329,6 +347,9 @@ public class Monster : MonoBehaviour
 
                     mesh.sharedMaterials = newMaterials;
                     
+                    upsetBaby.Stop();
+                    madBaby.Play();
+                    madBaby.Stop();
                 }
 
                 else 
