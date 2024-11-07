@@ -18,12 +18,14 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
     AudioSource audioSource;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -37,11 +39,13 @@ public class PlayerMovement : MonoBehaviour
         if (horizontal != 0 || vertical != 0)
         {
             audioSource.enabled = true;
+            animator.SetBool("isMoving", true);
         }
 
         else 
         {
             audioSource.enabled = false;
+            animator.SetBool("isMoving", false);
         }
     }
 
