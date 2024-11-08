@@ -409,6 +409,7 @@ public class Monster : MonoBehaviour
         {
             player.GiveItem();
             isTask1Active = false;
+            itemNames.Add(task1Item);
 
             timeForTask1 = holdingTimeForTask;
             taskTimer1Text.enabled = false;
@@ -424,6 +425,7 @@ public class Monster : MonoBehaviour
         {
             player.GiveItem();
             isTask2Active = false;
+            itemNames.Add(task2Item);
 
             timeForTask2 = holdingTimeForTask;
             taskTimer2Text.enabled = false;
@@ -439,6 +441,7 @@ public class Monster : MonoBehaviour
         {
             player.GiveItem();
             isTask3Active = false;
+            itemNames.Add(task3Item);
 
             timeForTask3 = holdingTimeForTask;
             taskTimer3Text.enabled = false;
@@ -460,6 +463,7 @@ public class Monster : MonoBehaviour
             random = Random.Range(1, itemNames.Count);
 
             task1Item = itemNames[random - 1];
+            itemNames.Remove(task1Item);
         }
 
         else if (!isTask2Active)
@@ -469,6 +473,7 @@ public class Monster : MonoBehaviour
             random = Random.Range(1, itemNames.Count);
 
             task2Item = itemNames[random - 1];
+            itemNames.Remove(task2Item);
         }
 
         else if (!isTask3Active)
@@ -478,6 +483,7 @@ public class Monster : MonoBehaviour
             random = Random.Range(1, itemNames.Count);
 
             task3Item = itemNames[random - 1];
+            itemNames.Remove(task3Item);
         }
     }
 
