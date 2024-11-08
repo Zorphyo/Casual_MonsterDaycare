@@ -48,6 +48,7 @@ public class Monster : MonoBehaviour
     public ParticleSystem madBaby;
 
     AudioSource audioSource;
+    Animator animator;
 
     [HideInInspector] public int hearts = 3;
 
@@ -61,6 +62,7 @@ public class Monster : MonoBehaviour
         timer = FindObjectOfType<Timer>();
         mesh = GetComponent<SkinnedMeshRenderer>();
         audioSource = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
 
         if (SceneManager.difficulty == "Easy")
         {
@@ -123,6 +125,8 @@ public class Monster : MonoBehaviour
                     audioSource.clip = mediumBaby;
                     audioSource.Play();
 
+                    animator.SetInteger("BabyForm", 2);
+
                     mesh.sharedMesh = middleBaby.sharedMesh;
                     Material[] newMaterials = new Material[middleBaby.sharedMaterials.Length];
                     
@@ -144,6 +148,8 @@ public class Monster : MonoBehaviour
 
                     audioSource.clip = angryBaby;
                     audioSource.Play();
+
+                    animator.SetInteger("BabyForm", 3);
 
                     mesh.sharedMesh = finalBaby.sharedMesh;
                     Material[] newMaterials = new Material[finalBaby.sharedMaterials.Length];
@@ -219,6 +225,8 @@ public class Monster : MonoBehaviour
                     audioSource.clip = mediumBaby;
                     audioSource.Play();
 
+                    animator.SetInteger("BabyForm", 2);
+
                     mesh.sharedMesh = middleBaby.sharedMesh;
                     Material[] newMaterials = new Material[middleBaby.sharedMaterials.Length];
                     
@@ -240,6 +248,8 @@ public class Monster : MonoBehaviour
 
                     audioSource.clip = angryBaby;
                     audioSource.Play();
+
+                    animator.SetInteger("BabyForm", 3);
 
                     mesh.sharedMesh = finalBaby.sharedMesh;
                     Material[] newMaterials = new Material[finalBaby.sharedMaterials.Length];
@@ -315,6 +325,8 @@ public class Monster : MonoBehaviour
                     audioSource.clip = mediumBaby;
                     audioSource.Play();
 
+                    animator.SetInteger("BabyForm", 2);
+
                     mesh.sharedMesh = middleBaby.sharedMesh;
                     Material[] newMaterials = new Material[middleBaby.sharedMaterials.Length];
                     
@@ -336,6 +348,8 @@ public class Monster : MonoBehaviour
 
                     audioSource.clip = angryBaby;
                     audioSource.Play();
+
+                    animator.SetInteger("BabyForm", 3);
 
                     mesh.sharedMesh = finalBaby.sharedMesh;
                     Material[] newMaterials = new Material[finalBaby.sharedMaterials.Length];

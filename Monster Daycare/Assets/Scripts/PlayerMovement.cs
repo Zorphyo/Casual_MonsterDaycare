@@ -54,14 +54,12 @@ public class PlayerMovement : MonoBehaviour
         horizontal = joystick.Horizontal * speed;
         vertical = joystick.Vertical * speed;
 
-        //transform.Translate(horizontal, 0, vertical);
         rb.velocity = new Vector3(horizontal, 0, vertical);
     }
 
     public void GiveItem()
     {
         hasItem = false;
-        //itemButton.interactable = true;
 
         inventoryText.text = "Inventory: ";
 

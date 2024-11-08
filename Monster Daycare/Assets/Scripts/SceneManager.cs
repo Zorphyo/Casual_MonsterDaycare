@@ -21,6 +21,7 @@ public class SceneManager : MonoBehaviour
         Game,
         BaseDaycare1,
         BaseDaycare2,
+        BaseDaycare3,
         HowToPlay,
         MainMenu,
         LevelSelect,
@@ -79,6 +80,27 @@ public class SceneManager : MonoBehaviour
         Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare2.ToString());
     }
+
+    public void LoadBaseDaycare3Easy()
+    {
+        difficulty = "Easy";
+        Timer.gameOver = false;
+        GameManager.gameStarted = false;
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare3.ToString());
+    }
+
+    public void LoadBaseDaycare3Hard()
+    {
+        difficulty = "Hard";
+        Timer.gameOver = false;
+        GameManager.gameStarted = false;
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare3.ToString());
+    }
+
     public void LoadHowToPlay()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.HowToPlay.ToString());
@@ -120,5 +142,14 @@ public class SceneManager : MonoBehaviour
         PauseManager.isPaused = false;
         Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare2.ToString());
+    }
+
+    public void ReloadScene3()
+    {
+        Timer.gameOver = false;
+        GameManager.gameStarted = false;
+        PauseManager.isPaused = false;
+        Time.timeScale = 1;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(Scene.BaseDaycare3.ToString());
     }
 }
