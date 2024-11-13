@@ -74,7 +74,7 @@ public class Timer : MonoBehaviour
     {
        int multiplier = 1;
 
-       if (SceneManager.difficulty == "Hard")
+       if (SceneManager.difficulty != "Easy")
        {
             multiplier = 2;
        }

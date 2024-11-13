@@ -31,7 +31,7 @@ public class Monster : MonoBehaviour
     string task1Item, task2Item, task3Item;
 
     int random;
-    int minTime, maxTime;
+    int minTime, maxTime, timeBetweenTasks;
 
     public Image heart1;
     public Image heart2;
@@ -68,14 +68,16 @@ public class Monster : MonoBehaviour
         {
             minTime = 12;
             maxTime = 15;
+            timeBetweenTasks = 10;
             holdingTimeForTask = 40.0f;
         }
 
         else 
         {
-            minTime = 7;
-            maxTime = 10;
-            holdingTimeForTask = 10.0f;
+            minTime = 10;
+            maxTime = 12;
+            timeBetweenTasks = 10;
+            holdingTimeForTask = 20.0f;
         }
 
         timeForTask1 = holdingTimeForTask;
@@ -84,7 +86,7 @@ public class Monster : MonoBehaviour
 
         random = Random.Range(minTime, maxTime);
 
-        InvokeRepeating("CreateTask", 7.0f, random);
+        InvokeRepeating("CreateTask", 10.0f, timeBetweenTasks);
 
         EquipCustomizationParts();
 
