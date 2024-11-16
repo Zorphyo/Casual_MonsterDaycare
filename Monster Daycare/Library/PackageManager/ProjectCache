@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638657499952648948
-    m_Hash: 1044263096
+      ticks: 638658544548142453
+    m_Hash: 2966255490
   m_LockFileStatus:
     m_FilePath: C:/GitHub/Casual_MonsterDaycare/Monster Daycare/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638657499952704040
-    m_Hash: 1401027968
+      ticks: 638658544548162458
+    m_Hash: 476086696
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -114,6 +114,7 @@ m_ResolvedPackages:
     - 2.10.0
     - 2.10.1
     - 2.10.2
+    - 2.10.3
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -129,6 +130,7 @@ m_ResolvedPackages:
     - 2.10.0
     - 2.10.1
     - 2.10.2
+    - 2.10.3
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -140,7 +142,7 @@ m_ResolvedPackages:
     - 3.1.0
     - 3.1.1
     - 3.1.2
-    recommended: 2.10.2
+    recommended: 2.10.3
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
