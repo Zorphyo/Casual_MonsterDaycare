@@ -47,6 +47,14 @@ public class PlayerMovement : MonoBehaviour
             audioSource.enabled = false;
             animator.SetBool("isMoving", false);
         }
+
+        Vector3 movementDirection = new Vector3(horizontal, 0, vertical);
+        movementDirection.Normalize();
+
+        if (movementDirection != Vector3.zero)
+        {
+            transform.forward = movementDirection;
+        }
     }
 
     private void FixedUpdate()
@@ -55,6 +63,8 @@ public class PlayerMovement : MonoBehaviour
         vertical = joystick.Vertical * speed;
 
         rb.velocity = new Vector3(horizontal, 0, vertical);
+
+        
     }
 
     public void GiveItem()
