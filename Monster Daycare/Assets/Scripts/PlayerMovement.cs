@@ -47,24 +47,25 @@ public class PlayerMovement : MonoBehaviour
             audioSource.enabled = false;
             animator.SetBool("isMoving", false);
         }
-
-        Vector3 movementDirection = new Vector3(horizontal, 0, vertical);
-        movementDirection.Normalize();
-
-        if (movementDirection != Vector3.zero)
-        {
-            transform.forward = movementDirection;
-        }
     }
 
     private void FixedUpdate()
     {
-        horizontal = joystick.Horizontal * speed;
-        vertical = joystick.Vertical * speed;
+        horizontal = joystick.Horizontal;
+        vertical = joystick.Vertical;
 
-        rb.velocity = new Vector3(horizontal, 0, vertical);
+        Vector3 movementDirection = new Vector3(horizontal, 0, vertical).normalized;
 
-        
+        if (movementDirection == Vector3.zero)
+        {
+            return;
+        }
+
+        rb.MovePosition(rb.position + movementDirection * speed * Time.fixedDeltaTime);
+
+        Quaternion targetRotation = Quaternion.LookRotation(movementDirection);
+        targetRotation = Quaternion.RotateTowards(transform.rotation, targetRotation, 360 * Time.fixedDeltaTime);
+        rb.MoveRotation(targetRotation);
     }
 
     public void GiveItem()
