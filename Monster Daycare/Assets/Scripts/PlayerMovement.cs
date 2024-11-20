@@ -51,17 +51,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        horizontal = joystick.Horizontal;
-        vertical = joystick.Vertical;
+        horizontal = joystick.Horizontal * speed;
+        vertical = joystick.Vertical * speed;
 
         Vector3 movementDirection = new Vector3(horizontal, 0, vertical).normalized;
+
+        rb.velocity = new Vector3(horizontal, 0, vertical);
 
         if (movementDirection == Vector3.zero)
         {
             return;
         }
-
-        rb.MovePosition(rb.position + movementDirection * speed * Time.fixedDeltaTime);
 
         Quaternion targetRotation = Quaternion.LookRotation(movementDirection);
         targetRotation = Quaternion.RotateTowards(transform.rotation, targetRotation, 360 * Time.fixedDeltaTime);
