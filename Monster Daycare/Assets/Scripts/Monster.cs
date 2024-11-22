@@ -115,9 +115,7 @@ public class Monster : MonoBehaviour
                 taskTimer1Text.gameObject.SetActive(false);
 
                 task1Text.text = "1. ";
-
-                audioSource.clip = outOfTime;
-                audioSource.Play();
+                audioSource.PlayOneShot(outOfTime);
 
                 if (hearts == 3)
                 {
@@ -215,9 +213,7 @@ public class Monster : MonoBehaviour
                 taskTimer2Text.gameObject.SetActive(false);
 
                 task2Text.text = "2. ";
-
-                audioSource.clip = outOfTime;
-                audioSource.Play();
+                audioSource.PlayOneShot(outOfTime);
 
                 if (hearts == 3)
                 {
@@ -315,9 +311,7 @@ public class Monster : MonoBehaviour
                 taskTimer3Text.gameObject.SetActive(false);
 
                 task3Text.text = "3. ";
-
-                audioSource.clip = outOfTime;
-                audioSource.Play();
+                audioSource.PlayOneShot(outOfTime);
 
                 if (hearts == 3)
                 {

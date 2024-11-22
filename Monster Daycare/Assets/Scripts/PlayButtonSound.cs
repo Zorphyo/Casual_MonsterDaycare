@@ -12,7 +12,7 @@ public class PlayButtonSound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     // Update is called once per frame

@@ -13,6 +13,7 @@ public class Item : MonoBehaviour
     private PlayerMovement player;
 
     AudioSource audioSource;
+    Outline outline;
 
     void Awake()
     {
@@ -24,6 +25,11 @@ public class Item : MonoBehaviour
     {
         player = FindObjectOfType<PlayerMovement>();
         audioSource = GetComponent<AudioSource>();
+
+        outline = gameObject.AddComponent<Outline>();
+        outline.enabled = false;
+        outline.OutlineColor = Color.white;
+        outline.OutlineWidth = 5f;
     }
 
     // Update is called once per frame
@@ -35,11 +41,13 @@ public class Item : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         ShowButton();
+        outline.enabled = true;
     }
 
     void OnTriggerExit(Collider other)
     {
         HideButton();
+        outline.enabled = false;
     }
 
     public void ShowButton()

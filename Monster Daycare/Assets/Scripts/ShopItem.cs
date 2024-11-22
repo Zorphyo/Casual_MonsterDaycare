@@ -13,6 +13,9 @@ public class ShopItem : MonoBehaviour
     public int isPurchased;
     public int isEquipped;
 
+    AudioSource audioSource;
+    public AudioClip purchasedSound;
+
     [SerializeField] Button shopItemButton;
     [SerializeField] Button equipItemButton;
     [SerializeField] TextMeshProUGUI priceText;
@@ -57,6 +60,8 @@ public class ShopItem : MonoBehaviour
             PlayerPrefs.SetInt(shopItemName + " Purchased", isPurchased);
 
             purchasedText.text = "Purchased!";
+            audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.PlayOneShot(purchasedSound);
         }
 
         else if (CurrencyManager.playerCurrency < price && isPurchased == 0)
