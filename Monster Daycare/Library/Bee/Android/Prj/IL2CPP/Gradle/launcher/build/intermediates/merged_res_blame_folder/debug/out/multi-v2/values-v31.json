@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Ryan\\Desktop\\Casual_MonsterDaycare\\Monster Daycare\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v31\\values-v31.xml",
+            "outputFile": "C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v31\\values-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ryan\\Desktop\\Casual_MonsterDaycare\\Monster Daycare\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v31\\values-v31.xml",
+                    "source": "C:\\GitHub\\Casual_MonsterDaycare\\Monster Daycare\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v31\\values-v31.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
