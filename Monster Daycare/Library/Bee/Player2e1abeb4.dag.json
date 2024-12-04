@@ -1378,8 +1378,7 @@
         1370,
         1371,
         1372,
-        1373,
-        1374
+        1373
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -1421,26 +1420,26 @@
       "DebugActionIndex": 3
     },
     {
-      "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets2.resource",
-      "DisplayName": "Copying sharedassets2.resource",
+      "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource",
+      "DisplayName": "Copying sharedassets0.resource",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/PlayerDataCache/Android/Data/sharedassets2.resource"
+        "Library/PlayerDataCache/Android/Data/sharedassets0.resource"
       ],
       "Outputs": [
-        "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets2.resource"
+        "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource"
       ],
       "DebugActionIndex": 4
     },
     {
-      "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets6.resource",
-      "DisplayName": "Copying sharedassets6.resource",
+      "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets1.resource",
+      "DisplayName": "Copying sharedassets1.resource",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/PlayerDataCache/Android/Data/sharedassets6.resource"
+        "Library/PlayerDataCache/Android/Data/sharedassets1.resource"
       ],
       "Outputs": [
-        "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets6.resource"
+        "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets1.resource"
       ],
       "DebugActionIndex": 5
     },
@@ -1467,8 +1466,8 @@
         "Library/PlayerDataCache/Android/Data/data.unity3d",
         "Library/PlayerDataCache/Android/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Android/Data/ScriptingAssemblies.json",
-        "Library/PlayerDataCache/Android/Data/sharedassets2.resource",
-        "Library/PlayerDataCache/Android/Data/sharedassets6.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets0.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets1.resource",
         "C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AIModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.ARModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AccessibilityModule.dll",
@@ -30015,21 +30014,6 @@
       "DebugActionIndex": 1246
     },
     {
-      "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
-      "DisplayName": "Copying icallsummary.txt",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
-      ],
-      "Outputs": [
-        "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
-      ],
-      "ToBuildDependencies": [
-        10
-      ],
-      "DebugActionIndex": 1247
-    },
-    {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "DisplayName": "Copying Mono.Security.dll",
       "ActionType": "CopyFiles",
@@ -30042,7 +30026,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1248
+      "DebugActionIndex": 1247
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -30057,7 +30041,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1249
+      "DebugActionIndex": 1248
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -30072,7 +30056,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1250
+      "DebugActionIndex": 1249
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -30087,7 +30071,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1251
+      "DebugActionIndex": 1250
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -30102,7 +30086,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1252
+      "DebugActionIndex": 1251
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -30117,7 +30101,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1253
+      "DebugActionIndex": 1252
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.dll",
@@ -30132,7 +30116,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1254
+      "DebugActionIndex": 1253
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.dll",
@@ -30147,7 +30131,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1255
+      "DebugActionIndex": 1254
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.pdb",
@@ -30162,7 +30146,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1256
+      "DebugActionIndex": 1255
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.pdb",
@@ -30177,7 +30161,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1257
+      "DebugActionIndex": 1256
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll",
@@ -30192,7 +30176,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1258
+      "DebugActionIndex": 1257
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb",
@@ -30207,7 +30191,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1259
+      "DebugActionIndex": 1258
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Timeline.dll",
@@ -30222,7 +30206,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1260
+      "DebugActionIndex": 1259
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Timeline.pdb",
@@ -30237,7 +30221,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1261
+      "DebugActionIndex": 1260
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -30252,7 +30236,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1262
+      "DebugActionIndex": 1261
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -30267,7 +30251,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1263
+      "DebugActionIndex": 1262
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -30282,7 +30266,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1264
+      "DebugActionIndex": 1263
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -30297,7 +30281,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1265
+      "DebugActionIndex": 1264
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -30312,7 +30296,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1266
+      "DebugActionIndex": 1265
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -30327,7 +30311,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1267
+      "DebugActionIndex": 1266
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -30342,7 +30326,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1268
+      "DebugActionIndex": 1267
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -30357,7 +30341,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1269
+      "DebugActionIndex": 1268
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.DirectorModule.dll",
@@ -30372,7 +30356,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1270
+      "DebugActionIndex": 1269
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.DirectorModule.pdb",
@@ -30387,7 +30371,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1271
+      "DebugActionIndex": 1270
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -30402,7 +30386,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1272
+      "DebugActionIndex": 1271
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -30417,7 +30401,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1273
+      "DebugActionIndex": 1272
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -30432,7 +30416,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1274
+      "DebugActionIndex": 1273
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -30447,7 +30431,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1275
+      "DebugActionIndex": 1274
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -30462,7 +30446,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1276
+      "DebugActionIndex": 1275
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -30477,7 +30461,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1277
+      "DebugActionIndex": 1276
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -30492,7 +30476,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1278
+      "DebugActionIndex": 1277
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.dll",
@@ -30507,7 +30491,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1279
+      "DebugActionIndex": 1278
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.pdb",
@@ -30522,7 +30506,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1280
+      "DebugActionIndex": 1279
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -30537,7 +30521,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1281
+      "DebugActionIndex": 1280
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -30552,7 +30536,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1282
+      "DebugActionIndex": 1281
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -30567,7 +30551,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1283
+      "DebugActionIndex": 1282
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.pdb",
@@ -30582,7 +30566,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1284
+      "DebugActionIndex": 1283
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -30597,7 +30581,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1285
+      "DebugActionIndex": 1284
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -30612,7 +30596,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1286
+      "DebugActionIndex": 1285
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -30627,7 +30611,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1287
+      "DebugActionIndex": 1286
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -30642,7 +30626,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1288
+      "DebugActionIndex": 1287
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -30657,7 +30641,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1289
+      "DebugActionIndex": 1288
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.dll",
@@ -30672,7 +30656,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1290
+      "DebugActionIndex": 1289
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.pdb",
@@ -30687,7 +30671,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1291
+      "DebugActionIndex": 1290
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -30702,7 +30686,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1292
+      "DebugActionIndex": 1291
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -30717,7 +30701,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1293
+      "DebugActionIndex": 1292
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -30732,7 +30716,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1294
+      "DebugActionIndex": 1293
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -30747,7 +30731,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1295
+      "DebugActionIndex": 1294
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll",
@@ -30762,7 +30746,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1296
+      "DebugActionIndex": 1295
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -30777,7 +30761,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1297
+      "DebugActionIndex": 1296
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -30792,7 +30776,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1298
+      "DebugActionIndex": 1297
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -30807,7 +30791,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1299
+      "DebugActionIndex": 1298
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -30822,7 +30806,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1300
+      "DebugActionIndex": 1299
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -30837,7 +30821,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1301
+      "DebugActionIndex": 1300
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -30852,7 +30836,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1302
+      "DebugActionIndex": 1301
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -30867,7 +30851,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1303
+      "DebugActionIndex": 1302
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -30882,7 +30866,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1304
+      "DebugActionIndex": 1303
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -30897,7 +30881,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1305
+      "DebugActionIndex": 1304
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -30912,7 +30896,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1306
+      "DebugActionIndex": 1305
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -30927,7 +30911,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1307
+      "DebugActionIndex": 1306
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -30942,7 +30926,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1308
+      "DebugActionIndex": 1307
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -30957,7 +30941,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1309
+      "DebugActionIndex": 1308
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -30972,7 +30956,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1310
+      "DebugActionIndex": 1309
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -30987,7 +30971,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1311
+      "DebugActionIndex": 1310
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.dll",
@@ -31002,7 +30986,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1312
+      "DebugActionIndex": 1311
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.pdb",
@@ -31017,7 +31001,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1313
+      "DebugActionIndex": 1312
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.dll",
@@ -31032,7 +31016,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1314
+      "DebugActionIndex": 1313
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.pdb",
@@ -31047,7 +31031,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1315
+      "DebugActionIndex": 1314
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -31062,7 +31046,7 @@
       "ToBuildDependencies": [
         10
       ],
-      "DebugActionIndex": 1316
+      "DebugActionIndex": 1315
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -31074,7 +31058,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 1317
+      "DebugActionIndex": 1316
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_li0n.info",
@@ -31087,7 +31071,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_li0n.info"
       ],
-      "DebugActionIndex": 1318
+      "DebugActionIndex": 1317
     },
     {
       "Annotation": "ActionGenerateProjectFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+7 others)",
@@ -31122,12 +31106,12 @@
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties"
       ],
       "ToBuildDependencies": [
-        1318
+        1317
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1319
+      "DebugActionIndex": 1318
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -31139,7 +31123,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 1320
+      "DebugActionIndex": 1319
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -31151,7 +31135,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 1321
+      "DebugActionIndex": 1320
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -31163,7 +31147,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 1322
+      "DebugActionIndex": 1321
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -31175,7 +31159,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1323
+      "DebugActionIndex": 1322
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -31187,7 +31171,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1324
+      "DebugActionIndex": 1323
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml",
@@ -31199,7 +31183,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml"
       ],
-      "DebugActionIndex": 1325
+      "DebugActionIndex": 1324
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -31211,7 +31195,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1326
+      "DebugActionIndex": 1325
     },
     {
       "Annotation": "WriteText C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml",
@@ -31224,7 +31208,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml"
       ],
-      "DebugActionIndex": 1327
+      "DebugActionIndex": 1326
     },
     {
       "Annotation": "WriteText C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
@@ -31237,7 +31221,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
       ],
-      "DebugActionIndex": 1328
+      "DebugActionIndex": 1327
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -31249,7 +31233,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1329
+      "DebugActionIndex": 1328
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -31261,7 +31245,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1330
+      "DebugActionIndex": 1329
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -31273,7 +31257,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1331
+      "DebugActionIndex": 1330
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png",
@@ -31285,7 +31269,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png"
       ],
-      "DebugActionIndex": 1332
+      "DebugActionIndex": 1331
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png",
@@ -31297,7 +31281,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1333
+      "DebugActionIndex": 1332
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png",
@@ -31309,7 +31293,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1334
+      "DebugActionIndex": 1333
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png",
@@ -31321,7 +31305,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1335
+      "DebugActionIndex": 1334
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png",
@@ -31333,7 +31317,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1336
+      "DebugActionIndex": 1335
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png",
@@ -31345,7 +31329,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png"
       ],
-      "DebugActionIndex": 1337
+      "DebugActionIndex": 1336
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png",
@@ -31357,7 +31341,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png"
       ],
-      "DebugActionIndex": 1338
+      "DebugActionIndex": 1337
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png",
@@ -31369,7 +31353,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png"
       ],
-      "DebugActionIndex": 1339
+      "DebugActionIndex": 1338
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png",
@@ -31381,7 +31365,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png"
       ],
-      "DebugActionIndex": 1340
+      "DebugActionIndex": 1339
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png",
@@ -31393,7 +31377,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png"
       ],
-      "DebugActionIndex": 1341
+      "DebugActionIndex": 1340
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png",
@@ -31405,7 +31389,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png"
       ],
-      "DebugActionIndex": 1342
+      "DebugActionIndex": 1341
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -31417,7 +31401,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1343
+      "DebugActionIndex": 1342
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -31425,13 +31409,13 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        1343,
-        1345,
-        1357,
-        1364
+        1342,
+        1344,
+        1356,
+        1363
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1344
+      "DebugActionIndex": 1343
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -31443,7 +31427,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1345
+      "DebugActionIndex": 1344
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
@@ -31456,7 +31440,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 1346
+      "DebugActionIndex": 1345
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -31560,12 +31544,12 @@
         84,
         86,
         88,
-        1346
+        1345
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1347
+      "DebugActionIndex": 1346
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_3ijo.info",
@@ -31578,7 +31562,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_3ijo.info"
       ],
-      "DebugActionIndex": 1348
+      "DebugActionIndex": 1347
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -31629,12 +31613,12 @@
       ],
       "ToBuildDependencies": [
         10,
-        1348
+        1347
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1349
+      "DebugActionIndex": 1348
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o",
@@ -31649,11 +31633,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1349
+        1348
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1350
+      "DebugActionIndex": 1349
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -31695,7 +31679,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1351
+      "DebugActionIndex": 1350
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o",
@@ -31710,11 +31694,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1351
+        1350
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1352
+      "DebugActionIndex": 1351
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so",
@@ -31732,12 +31716,12 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1350,
-        1352
+        1349,
+        1351
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1353
+      "DebugActionIndex": 1352
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so",
@@ -31751,11 +31735,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1353
+        1352
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1354
+      "DebugActionIndex": 1353
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so",
@@ -31769,11 +31753,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1354
+        1353
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1355
+      "DebugActionIndex": 1354
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so",
@@ -31787,11 +31771,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1353
+        1352
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1356
+      "DebugActionIndex": 1355
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -31807,12 +31791,12 @@
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1355,
-        1356
+        1354,
+        1355
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1357
+      "DebugActionIndex": 1356
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -31827,11 +31811,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1349
+        1348
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1358
+      "DebugActionIndex": 1357
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -31846,11 +31830,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1351
+        1350
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1359
+      "DebugActionIndex": 1358
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -31868,12 +31852,12 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1358,
-        1359
+        1357,
+        1358
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1360
+      "DebugActionIndex": 1359
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -31887,11 +31871,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1360
+        1359
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1361
+      "DebugActionIndex": 1360
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -31905,11 +31889,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1361
+        1360
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1362
+      "DebugActionIndex": 1361
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -31923,11 +31907,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1360
+        1359
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1363
+      "DebugActionIndex": 1362
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -31943,12 +31927,12 @@
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1362,
-        1363
+        1361,
+        1362
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1364
+      "DebugActionIndex": 1363
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -31960,7 +31944,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1365
+      "DebugActionIndex": 1364
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libil2cpp.so",
@@ -31975,7 +31959,7 @@
       "ToBuildDependencies": [
         534
       ],
-      "DebugActionIndex": 1366
+      "DebugActionIndex": 1365
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -31988,9 +31972,9 @@
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1355
+        1354
       ],
-      "DebugActionIndex": 1367
+      "DebugActionIndex": 1366
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -32002,7 +31986,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1368
+      "DebugActionIndex": 1367
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -32017,7 +32001,7 @@
       "ToBuildDependencies": [
         980
       ],
-      "DebugActionIndex": 1369
+      "DebugActionIndex": 1368
     },
     {
       "Annotation": "CopyFiles C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -32030,9 +32014,9 @@
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1362
+        1361
       ],
-      "DebugActionIndex": 1370
+      "DebugActionIndex": 1369
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_m988.info",
@@ -32045,7 +32029,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_m988.info"
       ],
-      "DebugActionIndex": 1371
+      "DebugActionIndex": 1370
     },
     {
       "Annotation": "GuidGenerator C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -32055,8 +32039,8 @@
         "Library/PlayerDataCache/Android/Data/data.unity3d",
         "Library/PlayerDataCache/Android/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Android/Data/ScriptingAssemblies.json",
-        "Library/PlayerDataCache/Android/Data/sharedassets2.resource",
-        "Library/PlayerDataCache/Android/Data/sharedassets6.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets0.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets1.resource",
         "Library/Bee/artifacts/Android/boot.config",
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/artifacts/Android/il2cppOutput/data/Metadata/global-metadata.dat",
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/artifacts/Android/il2cppOutput/data/Resources/mscorlib.dll-resources.dat",
@@ -32077,12 +32061,12 @@
       "ToBuildDependencies": [
         7,
         89,
-        1371
+        1370
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1372
+      "DebugActionIndex": 1371
     },
     {
       "Annotation": "WriteText C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
@@ -32095,7 +32079,7 @@
       "Outputs": [
         "C:/Users/Ryan/Desktop/Casual_MonsterDaycare/Monster Daycare/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 1373
+      "DebugActionIndex": 1372
     },
     {
       "Annotation": "Player",
@@ -32478,7 +32462,7 @@
         1314,
         1315,
         1316,
-        1317,
+        1318,
         1319,
         1320,
         1321,
@@ -32503,16 +32487,15 @@
         1340,
         1341,
         1342,
-        1343,
-        1345,
-        1347,
-        1357,
-        1364,
-        1372,
-        1373
+        1344,
+        1346,
+        1356,
+        1363,
+        1371,
+        1372
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1374
+      "DebugActionIndex": 1373
     }
   ],
   "FileSignatures": [
@@ -33055,8 +33038,8 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 1344,
-          "Player": 1374
+          "SourceBuildPlayerFiles": 1343,
+          "Player": 1373
         }
 ,  "DefaultNodes": [
     0

@@ -3,7 +3,7 @@
     package="com.ScrapMothStudios.MonsterDaycare"
     android:installLocation="preferExternal"
     android:versionCode="1"
-    android:versionName="0.6" >
+    android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="22"
